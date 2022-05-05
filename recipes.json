@@ -1,0 +1,32 @@
+{
+    "potions":[
+        {"name":"Ammo Conservation","Ingredients":[],"Hardmode":false},
+        {"name":"Archery","Ingredients":[],"Hardmode":false},
+        {"name":"Battle","Ingredients":[],"Hardmode":false},
+        {"name":"Dangersense","Ingredients":[],"Hardmode":false},
+        {"name":"Endurance","Ingredients":[],"Hardmode":false},
+        {"name":"Heartreach","Ingredients":[],"Hardmode":false},
+        {"name":"Hunter","Ingredients":[],"Hardmode":false},
+        {"name":"Inferno","Ingredients":[],"Hardmode":false},
+        {"name":"Ironskin","Ingredients":["Water","Daybloom","Iron ore"],"Hardmode":false},
+        {"name":"Lifeforce","Ingredients":[],"Hardmode":true},
+        {"name":"Magic Power","Ingredients":[],"Hardmode":false},
+        {"name":"Mana Regeneration","Ingredients":[],"Hardmode":false},
+        {"name":"Mining","Ingredients":[],"Hardmode":false},
+        {"name":"Night Owl","Ingredients":[],"Hardmode":false},
+        {"name":"Obsidian Skin","Ingredients":[],"Hardmode":false},
+        {"name":"Rage","Ingredients":[],"Hardmode":false},
+        {"name":"Regeneration","Ingredients":[],"Hardmode":false},
+        {"name":"Shine","Ingredients":[],"Hardmode":false},
+        {"name":"Spelunker","Ingredients":[],"Hardmode":false},
+        {"name":"Summoning","Ingredients":[],"Hardmode":false},
+        {"name":"Swiftness","Ingredients":[],"Hardmode":false},
+        {"name":"Teleportation","Ingredients":[],"Hardmode":false},
+        {"name":"Thorns","Ingredients":[],"Hardmode":false},
+        {"name":"Titan","Ingredients":[],"Hardmode":false},
+        {"name":"Water Walking","Ingredients":[],"Hardmode":false},
+        {"name":"Wormhole","Ingredients":[],"Hardmode":false},
+        {"name":"Wrath","Ingredients":[],"Hardmode":false},
+        {}
+    ]
+}
