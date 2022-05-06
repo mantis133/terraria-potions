@@ -1,43 +1,461 @@
 {
-    "potions":[
-        {"name":"Ammo Conservation","Ingredients":["Water","Double Cod","moonglow"],"Hardmode":false},
-        {"name":"Archery","Ingredients":["Water","lens","Daybloom"],"Hardmode":false},
-        {"name":"Battle","Ingredients":["Water","Deathweed","Rotten Chunk"],"Hardmode":false},
-        {"name":"Dangersense","Ingredients":["Water","Shiverthorn","Cobweb(10)"],"Hardmode":false},
-        {"name":"Endurance","Ingredients":["Water","Armored Cavefish","Blinkroot"],"Hardmode":false},
-        {"name":"Heartreach","Ingredients":["Water","Crimson Tigarfish","Daybloom"],"Hardmode":false},
-        {"name":"Hunter","Ingredients":["Water","Daybloom","Blinkroot","Shark fin"],"Hardmode":false},
-        {"name":"Inferno","Ingredients":["Water","obsidifish(2)","Fireblossom"],"Hardmode":false},
-        {"name":"Ironskin","Ingredients":["Water","Daybloom","Iron ore"],"Hardmode":false},
-        {"name":"Lifeforce","Ingredients":["Water","Prismite","moonglow","Shiverthorn","Waterleaf"],"Hardmode":true},
-        {"name":"Magic Power","Ingredients":["Water","moonglow","Deathweed","Fallen Star"],"Hardmode":false},
-        {"name":"Mana Regeneration","Ingredients":["Water","moonglow","Daybloom","Fallen Star"],"Hardmode":false},
-        {"name":"Mining","Ingredients":["Water","Antlion Mandible","Blinkroot"],"Hardmode":false},
-        {"name":"Night Owl","Ingredients":["Water","Daybloom","Blinkroot"],"Hardmode":false},
-        {"name":"Obsidian Skin","Ingredients":["Water","Fireblossom","Waterleaf","Obsidian"],"Hardmode":false},
-        {"name":"Rage","Ingredients":["Water","Hemopiranha","Deathweed"],"Hardmode":false},
-        {"name":"Regeneration","Ingredients":["Water","Daybloom","Mushroom"],"Hardmode":false},
-        {"name":"Shine","Ingredients":["Water","Daybloom","Glowing Mushroom"],"Hardmode":false},
-        {"name":"Spelunker","Ingredients":["Water","Gold Ore","Blinkroot","moonglow"],"Hardmode":false},
-        {"name":"Summoning","Ingredients":["Water","Variegated Lardfish","moonglow"],"Hardmode":false},
-        {"name":"Swiftness","Ingredients":["Water","Blinkroot","Cactus"],"Hardmode":false},
-        {"name":"Teleportation","Ingredients":["Water","Chaos Fish","Fireblossom"],"Hardmode":true},
-        {"name":"Thorns","Ingredients":["Water","Deathweed","Cactus","Stinger/Wormtooth"],"Hardmode":false},
-        {"name":"Titan","Ingredients":["Water","Bone","Deathweed","Shiverthorn"],"Hardmode":false},
-        {"name":"Water Walking","Ingredients":["Water","Waterleaf","Shark fin"],"Hardmode":false},
-        {"name":"Wormhole","Ingredients":["Water","Specular Fish","Blinkroot"],"Hardmode":false},
-        {"name":"Wrath","Ingredients":["Water","Ebonkoi","Deathweed"],"Hardmode":false}
-        
-    ],
-    "Flasks":[
-        {"name":"poison","Ingredients":["Water","Stinger"],"Hardmode":false},
-        {"name":"Fire","Ingredients":["Water","Molten ore(3)"],"Hardmode":false},
-        {"name":"Venom","Ingredients":["Water","Vial of Venom(5)"],"Hardmode":true},
-        {"name":"Gold","Ingredients":["Water","Gold Dust(5)"],"Hardmode":true},
-        {"name":"Ichor","Ingredients":["Water","Ichor(2)"],"Hardmode":true},
-        {"name":"Cursed Flames","Ingredients":["Water","Cursed Flame(2)"]},
-        {"name":"Nanites","Ingredients":["Water","Nanites(5)"]},
-        {"name":"Party","Ingredients":["Water","confetti(5)"]}
-    ]
+    "potions": [
+        {
+            "name": "Ammo Conservation",
+            "Ingredients": [
+                {"Ingredient": "Water","Quantity": 1},
+                {"Ingredient":"Double Cod","Quantity":1},
+                {"Ingredient":"Moonglow","Quantity":1}],
+            "Hardmode": false
+        },
+        {
+            "name": "Archery",
+            "Ingredients": [
+                {"Ingredient": "Water","Quantity": 1},
+                {"Ingredient":"lens","Quantity":1},
+                {"Ingredient":"Daybloom","Quantity":1}],
+            "Hardmode": false
+        },
+        {
+            "name": "Battle",
+            "Ingredients": [
+                {"Ingredient": "Water","Quantity": 1},
+                {"Ingredient":"Deathweed","Quantity":1},
+                {"Ingredient":"Rotten Chunk","Quantity":1}],
+            "Hardmode": false
+        },
+        {
+            "name":"Builder",
+            "Ingredients":[
+                {"Ingredient":"Water","Quantity":1},
+                {"Ingredient":"Blinkroot","Quantity":1},
+                {"Ingredient":"Shiverthorn","Quantity":1},
+                {"Ingredient":"Moonglow","Quantity":1}],
+            "Hardmode":false
+        },
+        {
+            "name":"Calming",
+            "Ingredients":[
+                {"Ingredient":"Water","Quantity":1},
+                {"Ingredient":"Damselfish","Quantity":1},
+                {"Ingredient":"Daybloom","Quantity":1}],
+            "Hardmode":false
+        },
+        {
+            "name":"Crate",
+            "Ingredients":[
+                {"Ingredient":"Water","Quantity":1},
+                {"Ingredient":"Amber","Quantity":1},
+                {"Ingredient":"Moonglow","Quantity":1},
+                {"Ingredient":"Shiverthorn","Quantity":1},
+                {"Ingredient":"Waterleaf","Quantity":1}],
+            "Hardmode":false
+        },
+        {
+            "name": "Dangersense",
+            "Ingredients": [
+                {"Ingredient": "Water","Quantity": 1},
+                {"Ingredient":"Shiverthorn","Quantity":1},
+                {"Ingredient":"Cobweb","Quantity":10}
+            ],
+            "Hardmode": false
+        },
+        {
+            "name": "Endurance",
+            "Ingredients": [
+                {"Ingredient": "Water","Quantity": 1},
+                {"Ingredient":"Armored Cavefish","Quantity":1},
+                {"Ingredient":"Blinkroot","Quantity":1}
+            ],
+            "Hardmode": false
+        },
+        {
+            "name":"Featherfall",
+            "Ingredients":[
+                {"Ingredient":"Water","Quantity":1},
+                {"Ingredient":"Daybloom","Quantity":1},
+                {"Ingredient":"Blinkroot","Quantity":1},
+                {"Ingredient":"Feather","Quantity":1}],
+            "Hardmode":false
+        },
+        {
+            "name":"Fishing",
+            "Ingredients":[
+                {"Ingredient":"Water","Quantity":1},
+                {"Ingredient":"Crispy Honey Block","Quantity":1},
+                {"Ingredient":"Waterleaf","Quantity":1}],
+            "Hardmode":false
+        },
+        {
+            "name":"Flipper",
+            "Ingredients":[
+                {"Ingredient":"Water","Quantity":1},
+                {"Ingredient":"Shiverthorn","Quantity":1},
+                {"Ingredient":"Waterleaf","Quantity":1}],
+            "Hardmode":false
+        },
+        {
+            "name":"Gills",
+            "Ingredients":[
+                {"Ingredient":"Water","Quantity":1},
+                {"Ingredient":"Waterleaf","Quantity":1},
+                {"Ingredient":"Coral","Quantity":1}],
+            "Hardmode":false
+        },
+        {
+            "name":"Gravitation",
+            "Ingredients":[
+                {"Ingredient":"Water","Quantity":1},
+                {"Ingredient":"Fireblossom","Quantity":1},
+                {"Ingredient":"Deathweed","Quantity":1},
+                {"Ingredient":"Blinkroot","Quantity":1},
+                {"Ingredient":"Feather","Quantity":1}],
+            "Hardmode":false
+        },
+        {
+            "name": "Heartreach",
+            "Ingredients": [
+                {"Ingredient": "Water","Quantity": 1},
+                {"Ingredient":"Crimson Tigarfish","Quantity":1},
+                {"Ingredient":"Daybloom","Quantity":1}
+            ],
+            "Hardmode": false
+        },
+        {
+            "name": "Hunter",
+            "Ingredients": [
+                {"Ingredient": "Water","Quantity": 1},
+                {"Ingredient":"Daybloom","Quantity":1},
+                {"Ingredient":"Blinkroot","Quantity":1},
+                {"Ingredient":"Shark Fin","Quantity":1}
+            ],
+            "Hardmode": false
+        },
+        {
+            "name": "Inferno",
+            "Ingredients": [
+                {"Ingredient": "Water","Quantity": 1},
+                {"Ingredient":"Obsidifish","Quantity":1},
+                {"Ingredient":"Fireblossom","Quantity":1}
+            ],
+            "Hardmode": false
+        },
+        {
+            "name":"Invisibility",
+            "Ingredients":[
+                {"Ingredient":"Water","Quantity":1},
+                {"Ingredient":"Blinkroot","Quantity":1},
+                {"Ingredient":"Moonglow","Quantity":1}],
+            "Hardmode":false
+        },
+        {
+            "name": "Ironskin",
+            "Ingredients": [
+                {"Ingredient": "Water","Quantity": 1},
+                {"Ingredient":"Daybloom","Quantity":1},
+                {"Ingredient":"Iron Ore","Quantity":1}
+            ],
+            "Hardmode": false
+        },
+        {
+            "name": "Lifeforce",
+            "Ingredients": [
+                {"Ingredient": "Water","Quantity": 1},
+                {"Ingredient":"Prismite","Quantity":1},
+                {"Ingredient":"Moonglow","Quantity":1},
+                {"Ingredient":"Shiverthorn","Quantity":1},
+                {"Ingredient":"Waterleaf","Quantity":1}
+            ],
+            "Hardmode": true
+        },
+        {
+            "name":"Lesser Luck",
+            "Ingredients":[
+                {"Ingredient":"Water","Quantity":1},
+                {"Ingredient":"Waterleaf","Quantity":1},
+                {"Ingredient":"Ladybug","Quantity":1},
+                {"Ingredient":"White Pearl","Quantity":1}],
+            "Hardmode":false
+        },
+        {
+            "name":"Luck",
+            "Ingredients":[
+                {"Ingredient":"Water","Quantity":1},
+                {"Ingredient":"Waterleaf","Quantity":1},
+                {"Ingredient":"Ladybug","Quantity":1},
+                {"Ingredient":"Black Pearl","Quantity":1}],
+            "Hardmode":false
+        },
+        {
+            "name":"Greater Luck",
+            "Ingredients":[
+                {"Ingredient":"Water","Quantity":1},
+                {"Ingredient":"Waterleaf","Quantity":1},
+                {"Ingredient":"Ladybug","Quantity":1},
+                {"Ingredient":"Pink Pearl","Quantity":1}],
+            "Hardmode":false
+        },
+        {
+            "name": "Magic Power",
+            "Ingredients": [
+                {"Ingredient": "Water","Quantity": 1},
+                {"Ingredient":"Moonglow","Quantity":1},
+                {"Ingredient":"Deathweed","Quantity":1},
+                {"Ingredient":"Fallen Star","Quantity":1}
+            ],
+            "Hardmode": false
+        },
+        {
+            "name": "Mana Regeneration",
+            "Ingredients": [
+                {"Ingredient": "Water","Quantity": 1},
+                {"Ingredient":"Moonglow","Quantity":1},
+                {"Ingredient":"Daybloom","Quantity":1},
+                {"Ingredient":"Fallen Star","Quantity":1}
+            ],
+            "Hardmode": false
+        },
+        {
+            "name": "Mining",
+            "Ingredients": [
+                {"Ingredient": "Water","Quantity": 1},
+                {"Ingredient":"Antlion Mandible","Quantity":1},
+                {"Ingredient":"Blinkroot","Quantity":1}
+            ],
+            "Hardmode": false
+        },
+        {
+            "name": "Night Owl",
+            "Ingredients": [
+                {"Ingredient": "Water","Quantity": 1},
+                {"Ingredient":"Daybloom","Quantity":1},
+                {"Ingredient":"Blinkroot","Quantity":1}
+            ],
+            "Hardmode": false
+        },
+        {
+            "name": "Obsidian Skin",
+            "Ingredients": [
+                {"Ingredient": "Water","Quantity": 1},
+                {"Ingredient":"Fireblossom","Quantity":1},
+                {"Ingredient":"Waterleaf","Quantity":1},
+                {"Ingredient":"Obsidian","Quantity":1}
+            ],
+            "Hardmode": false
+        },
+        {
+            "name": "Rage",
+            "Ingredients": [
+                {"Ingredient": "Water","Quantity": 1},
+                {"Ingredient":"Hemopiranha","Quantity":1},
+                {"Ingredient":"Deathweed","Quantity":1}
+            ],
+            "Hardmode": false
+        },
+        {
+            "name": "Regeneration",
+            "Ingredients": [
+                {"Ingredient": "Water","Quantity": 1},
+                {"Ingredient":"Daybloom","Quantity":1},
+                {"Ingredient":"Mushroom","Quantity":1}
+            ],
+            "Hardmode": false
+        },
+        {
+            "name": "Shine",
+            "Ingredients": [
+                {"Ingredient": "Water","Quantity": 1},
+                {"Ingredient":"Daybloom","Quantity":1},
+                {"Ingredient":"Glowing Mushroom","Quantity":1}
+            ],
+            "Hardmode": false
+        },
+        {
+            "name":"Sonar",
+            "Ingredients":[
+                {"Ingredient":"Water","Quantity":1},
+                {"Ingredient":"Waterleaf","Quantity":1},
+                {"Ingredient":"Coral","Quantity":1}],
+            "Hardmode":false
+        },
+        {
+            "name": "Spelunker",
+            "Ingredients": [
+                {"Ingredient": "Water","Quantity": 1},
+                {"Ingredient":"Gold Ore","Quantity":1},
+                {"Ingredient":"Blinkroot","Quantity":1},
+                {"Ingredient":"Moonglow","Quantity":1}
+            ],
+            "Hardmode": false
+        },
+        {
+            "name": "Summoning",
+            "Ingredients": [
+                {"Ingredient": "Water","Quantity": 1},
+                {"Ingredient":"Variegated Lardfish","Quantity":1},
+                {"Ingredient":"Moonglow","Quantity":1}
+            ],
+            "Hardmode": false
+        },
+        {
+            "name": "Swiftness",
+            "Ingredients": [
+                {"Ingredient": "Water","Quantity": 1},
+                {"Ingredient":"Blinkroot","Quantity":1},
+                {"Ingredient":"Cactus","Quantity":1}
+            ],
+            "Hardmode": false
+        },
+        {
+            "name": "Teleportation",
+            "Ingredients": [
+                {"Ingredient": "Water","Quantity": 1},
+                {"Ingredient":"Chaos Fish","Quantity":1},
+                {"Ingredient":"Fireblossom","Quantity":1}
+            ],
+            "Hardmode": true
+        },
+        {
+            "name": "Thorns",
+            "Ingredients": [
+                {"Ingredient": "Water","Quantity": 1},
+                {"Ingredient":"Deathweed","Quantity":1},
+                {"Ingredient":"Cactus","Quantity":1},
+                {"Ingredient":"Stinger/Wormtooth","Quantity":1}
+            ],
+            "Hardmode": false
+        },
+        {
+            "name":"Ale",
+            "Ingredients":[
+                {"Ingredient":"mug","Quantity":1}],
+            "Hardmode":false
+        },
+        {
+            "name":"Sake"
+        },
+        {
+            "name": "Titan",
+            "Ingredients": [
+                {"Ingredient": "Water","Quantity": 1},
+                {"Ingredient":"Bone","Quantity":1},
+                {"Ingredient":"Deathweed","Quantity":1},
+                {"Ingredient":"Shiverthorn","Quantity":1}
+            ],
+            "Hardmode": false
+        },
+        {
+            "name": "Water Walking",
+            "Ingredients": [
+                {"Ingredient": "Water","Quantity": 1},
+                {"Ingredient":"Waterleaf","Quantity":1},
+                {"Ingredient":"Shark Fin","Quantity":1}
+            ],
+            "Hardmode": false
+        },
+        {
+            "name": "Wormhole",
+            "Ingredients": [
+                {"Ingredient": "Water","Quantity": 1},
+                {"Ingredient":"Specular Fish","Quantity":1},
+                {"Ingredient":"Blinkroot","Quantity":1}
+            ],
+            "Hardmode": false
+        },
+        {
+            "name": "Wrath",
+            "Ingredients": [
+                {"Ingredient": "Water","Quantity": 1},
+                {"Ingredient":"Ebonkoi","Quantity":1},
+                {"Ingredient":"Deathweed","Quantity":1}
+            ],
+            "Hardmode": false
+        }],
 
+    "Flasks": [
+        {
+            "name": "poison",
+            "Ingredients": [
+                {"Ingredient": "Water","Quantity": 1},
+                {"Ingredient":"Stinger","Quantity":1}
+            ],
+            "Hardmode": false
+        },
+        {
+            "name": "Fire",
+            "Ingredients": [
+                {"Ingredient": "Water","Quantity": 1},
+                {"Ingredient":"Molten ore","Quantity":3}
+            ],
+            "Hardmode": false
+        },
+        {
+            "name": "Venom",
+            "Ingredients": [
+                {"Ingredient": "Water","Quantity": 1},
+                {"Ingredient":"Vial of Venom","Quantity":5}
+            ],
+            "Hardmode": true
+        },
+        {
+            "name": "Gold",
+            "Ingredients": [
+                {"Ingredient": "Water","Quantity": 1},
+                {"Ingredient":"Gold Dust","Quantity":5}
+            ],
+            "Hardmode": true
+        },
+        {
+            "name": "Ichor",
+            "Ingredients": [
+                {"Ingredient": "Water","Quantity": 1},
+                {"Ingredient":"Ichor","Quantity":2}
+            ],
+            "Hardmode": true
+        },
+        {
+            "name": "Cursed Flames",
+            "Ingredients": [
+                {"Ingredient": "Water","Quantity": 1},
+                {"Ingredient":"Cursed Flame","Quantity":2}
+            ],
+            "Hardmode":true
+        },
+        {
+            "name": "Nanites",
+            "Ingredients": [
+                {"Ingredient": "Water","Quantity": 1},
+                {"Ingredient":"Nanites","Quantity":5}
+            ],
+            "Hardmode":true
+        },
+        {
+            "name": "Party",
+            "Ingredients": [
+                {"Ingredient": "Water","Quantity": 1},
+                {"Ingredient":"Confetti","Quantity":5}
+            ],
+            "Hardmode":false
+        }],
+    "Food":[
+
+    ],
+    "Furnature":{
+        "Activated":[
+            {"Name":"Ammo Box","Effect":"Ammo Box","Desc":"Grants a 20% chance not to consume ammo.","Duration":"10min"},
+            {"Name":"Bewitching Table","Effect":"Bewitched","Desc":"Increases number of maximum minions by +1.","Duration":"10min"},
+            {"Name":"Crystal Ball","Effect":"Clairvoyance","Desc":"Grants the following magic boosts: +20 maximum Mana, +5% Magic damage, +2% Magic critical strike chance, -2% Mana usage.","Duration":"10min"},
+            {"Name":"Sharpening Station","Effect":"Sharpened","Desc":"Increases melee weapons armor penetration by 12.","Duration":"10min"},
+            {"Name":"Slice of Cake","Effect":"Sugar Rush","Desc":"Increases the player's movement and mining speed by 20%.","Duration":"2min"}],
+        
+        "Passive":[
+            {"Name":"Campfire","Effect":"Cozy Fire"},
+            {"Name":"Dryad","Effect":"Dryad's Blessing"},
+            {"Name":"Sunflower","Effect":"Happy!"},
+            {"Name":"Heart Lanturn","Effect":"Heart Lamp"},
+            {"Name":"Honey","Effect":"Honey"},
+            {"Name":"Peace Candle","Effect":"Peace Candle"},
+            {"Name":"Star in a Bottle","Effect":"Star in a Bottle"},
+            {"Name":"Bast Statue","Effect":"The Bast Defence"}]
+    }
 }
