@@ -1,3 +1,3 @@
-import recipes from './recipes.json' assert {type: "json"}
+import recipes from './recipes.json' assert {type: "json"};
 
-console.log(recipes)
+console.log(recipes);
