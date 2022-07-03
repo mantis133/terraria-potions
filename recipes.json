@@ -155,7 +155,10 @@
                 {"Ingredient":"Daybloom","Quantity":1},
                 {"Ingredient":"Iron Ore","Quantity":1}
             ],
-            "Hardmode": false
+            "Hardmode": false,
+            "description": "Increase defense by 8",
+            "duration": "8 minutes",
+            "icon": "icons/Ironskin_Potion.png"
         },
         {
             "name": "Lifeforce",

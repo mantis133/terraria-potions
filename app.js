@@ -1,376 +1,88 @@
+const recipeJson = "recipes.json";
 
-let recipes = {
-    "potions": [
-        {
-            "name": "Ammo Conservation",
-            "Ingredients": [
-                {"Ingredient": "Water","Quantity": 1},
-                {"Ingredient":"Double Cod","Quantity":1},
-                {"Ingredient":"Moonglow","Quantity":1}],
-            "Hardmode": false
-        },
-        {
-            "name": "Archery",
-            "Ingredients": [
-                {"Ingredient": "Water","Quantity": 1},
-                {"Ingredient":"lens","Quantity":1},
-                {"Ingredient":"Daybloom","Quantity":1}],
-            "Hardmode": false
-        },
-        {
-            "name": "Battle",
-            "Ingredients": [
-                {"Ingredient": "Water","Quantity": 1},
-                {"Ingredient":"Deathweed","Quantity":1},
-                {"Ingredient":"Rotten Chunk","Quantity":1}],
-            "Hardmode": false
-        },
-        {
-            "name":"Builder",
-            "Ingredients":[
-                {"Ingredient":"Water","Quantity":1},
-                {"Ingredient":"Blinkroot","Quantity":1},
-                {"Ingredient":"Shiverthorn","Quantity":1},
-                {"Ingredient":"Moonglow","Quantity":1}],
-            "Hardmode":false
-        },
-        {
-            "name":"Calming",
-            "Ingredients":[
-                {"Ingredient":"Water","Quantity":1},
-                {"Ingredient":"Damselfish","Quantity":1},
-                {"Ingredient":"Daybloom","Quantity":1}],
-            "Hardmode":false
-        },
-        {
-            "name":"Crate",
-            "Ingredients":[
-                {"Ingredient":"Water","Quantity":1},
-                {"Ingredient":"Amber","Quantity":1},
-                {"Ingredient":"Moonglow","Quantity":1},
-                {"Ingredient":"Shiverthorn","Quantity":1},
-                {"Ingredient":"Waterleaf","Quantity":1}],
-            "Hardmode":false
-        },
-        {
-            "name": "Dangersense",
-            "Ingredients": [
-                {"Ingredient": "Water","Quantity": 1},
-                {"Ingredient":"Shiverthorn","Quantity":1},
-                {"Ingredient":"Cobweb","Quantity":10}
-            ],
-            "Hardmode": false
-        },
-        {
-            "name": "Endurance",
-            "Ingredients": [
-                {"Ingredient": "Water","Quantity": 1},
-                {"Ingredient":"Armored Cavefish","Quantity":1},
-                {"Ingredient":"Blinkroot","Quantity":1}
-            ],
-            "Hardmode": false
-        },
-        {
-            "name":"Featherfall",
-            "Ingredients":[
-                {"Ingredient":"Water","Quantity":1},
-                {"Ingredient":"Daybloom","Quantity":1},
-                {"Ingredient":"Blinkroot","Quantity":1},
-                {"Ingredient":"Feather","Quantity":1}],
-            "Hardmode":false
-        },
-        {
-            "name":"Fishing",
-            "Ingredients":[
-                {"Ingredient":"Water","Quantity":1},
-                {"Ingredient":"Crispy Honey Block","Quantity":1},
-                {"Ingredient":"Waterleaf","Quantity":1}],
-            "Hardmode":false
-        },
-        {
-            "name":"Flipper",
-            "Ingredients":[
-                {"Ingredient":"Water","Quantity":1},
-                {"Ingredient":"Shiverthorn","Quantity":1},
-                {"Ingredient":"Waterleaf","Quantity":1}],
-            "Hardmode":false
-        },
-        {
-            "name":"Gills",
-            "Ingredients":[
-                {"Ingredient":"Water","Quantity":1},
-                {"Ingredient":"Waterleaf","Quantity":1},
-                {"Ingredient":"Coral","Quantity":1}],
-            "Hardmode":false
-        },
-        {
-            "name":"Gravitation",
-            "Ingredients":[
-                {"Ingredient":"Water","Quantity":1},
-                {"Ingredient":"Fireblossom","Quantity":1},
-                {"Ingredient":"Deathweed","Quantity":1},
-                {"Ingredient":"Blinkroot","Quantity":1},
-                {"Ingredient":"Feather","Quantity":1}],
-            "Hardmode":false
-        },
-        {
-            "name": "Heartreach",
-            "Ingredients": [
-                {"Ingredient": "Water","Quantity": 1},
-                {"Ingredient":"Crimson Tigarfish","Quantity":1},
-                {"Ingredient":"Daybloom","Quantity":1}
-            ],
-            "Hardmode": false
-        },
-        {
-            "name": "Hunter",
-            "Ingredients": [
-                {"Ingredient": "Water","Quantity": 1},
-                {"Ingredient":"Daybloom","Quantity":1},
-                {"Ingredient":"Blinkroot","Quantity":1},
-                {"Ingredient":"Shark Fin","Quantity":1}
-            ],
-            "Hardmode": false
-        },
-        {
-            "name": "Inferno",
-            "Ingredients": [
-                {"Ingredient": "Water","Quantity": 1},
-                {"Ingredient":"Obsidifish","Quantity":1},
-                {"Ingredient":"Fireblossom","Quantity":1}
-            ],
-            "Hardmode": false
-        },
-        {
-            "name":"Invisibility",
-            "Ingredients":[
-                {"Ingredient":"Water","Quantity":1},
-                {"Ingredient":"Blinkroot","Quantity":1},
-                {"Ingredient":"Moonglow","Quantity":1}],
-            "Hardmode":false
-        },
-        {
-            "name": "Ironskin",
-            "Ingredients": [
-                {"Ingredient": "Water","Quantity": 1},
-                {"Ingredient":"Daybloom","Quantity":1},
-                {"Ingredient":"Iron Ore","Quantity":1}
-            ],
-            "Hardmode": false
-        },
-        {
-            "name": "Lifeforce",
-            "Ingredients": [
-                {"Ingredient": "Water","Quantity": 1},
-                {"Ingredient":"Prismite","Quantity":1},
-                {"Ingredient":"Moonglow","Quantity":1},
-                {"Ingredient":"Shiverthorn","Quantity":1},
-                {"Ingredient":"Waterleaf","Quantity":1}
-            ],
-            "Hardmode": true
-        },
-        {
-            "name":"Lesser Luck",
-            "Ingredients":[
-                {"Ingredient":"Water","Quantity":1},
-                {"Ingredient":"Waterleaf","Quantity":1},
-                {"Ingredient":"Ladybug","Quantity":1},
-                {"Ingredient":"White Pearl","Quantity":1}],
-            "Hardmode":false
-        },
-        {
-            "name":"Luck",
-            "Ingredients":[
-                {"Ingredient":"Water","Quantity":1},
-                {"Ingredient":"Waterleaf","Quantity":1},
-                {"Ingredient":"Ladybug","Quantity":1},
-                {"Ingredient":"Black Pearl","Quantity":1}],
-            "Hardmode":false
-        },
-        {
-            "name":"Greater Luck",
-            "Ingredients":[
-                {"Ingredient":"Water","Quantity":1},
-                {"Ingredient":"Waterleaf","Quantity":1},
-                {"Ingredient":"Ladybug","Quantity":1},
-                {"Ingredient":"Pink Pearl","Quantity":1}],
-            "Hardmode":false
-        },
-        {
-            "name": "Magic Power",
-            "Ingredients": [
-                {"Ingredient": "Water","Quantity": 1},
-                {"Ingredient":"Moonglow","Quantity":1},
-                {"Ingredient":"Deathweed","Quantity":1},
-                {"Ingredient":"Fallen Star","Quantity":1}
-            ],
-            "Hardmode": false
-        },
-        {
-            "name": "Mana Regeneration",
-            "Ingredients": [
-                {"Ingredient": "Water","Quantity": 1},
-                {"Ingredient":"Moonglow","Quantity":1},
-                {"Ingredient":"Daybloom","Quantity":1},
-                {"Ingredient":"Fallen Star","Quantity":1}
-            ],
-            "Hardmode": false
-        },
-        {
-            "name": "Mining",
-            "Ingredients": [
-                {"Ingredient": "Water","Quantity": 1},
-                {"Ingredient":"Antlion Mandible","Quantity":1},
-                {"Ingredient":"Blinkroot","Quantity":1}
-            ],
-            "Hardmode": false
-        },
-        {
-            "name": "Night Owl",
-            "Ingredients": [
-                {"Ingredient": "Water","Quantity": 1},
-                {"Ingredient":"Daybloom","Quantity":1},
-                {"Ingredient":"Blinkroot","Quantity":1}
-            ],
-            "Hardmode": false
-        },
-        {
-            "name": "Obsidian Skin",
-            "Ingredients": [
-                {"Ingredient": "Water","Quantity": 1},
-                {"Ingredient":"Fireblossom","Quantity":1},
-                {"Ingredient":"Waterleaf","Quantity":1},
-                {"Ingredient":"Obsidian","Quantity":1}
-            ],
-            "Hardmode": false
-        },
-        {
-            "name": "Rage",
-            "Ingredients": [
-                {"Ingredient": "Water","Quantity": 1},
-                {"Ingredient":"Hemopiranha","Quantity":1},
-                {"Ingredient":"Deathweed","Quantity":1}
-            ],
-            "Hardmode": false
-        },
-        {
-            "name": "Regeneration",
-            "Ingredients": [
-                {"Ingredient": "Water","Quantity": 1},
-                {"Ingredient":"Daybloom","Quantity":1},
-                {"Ingredient":"Mushroom","Quantity":1}
-            ],
-            "Hardmode": false
-        },
-        {
-            "name": "Shine",
-            "Ingredients": [
-                {"Ingredient": "Water","Quantity": 1},
-                {"Ingredient":"Daybloom","Quantity":1},
-                {"Ingredient":"Glowing Mushroom","Quantity":1}
-            ],
-            "Hardmode": false
-        },
-        {
-            "name":"Sonar",
-            "Ingredients":[
-                {"Ingredient":"Water","Quantity":1},
-                {"Ingredient":"Waterleaf","Quantity":1},
-                {"Ingredient":"Coral","Quantity":1}],
-            "Hardmode":false
-        },
-        {
-            "name": "Spelunker",
-            "Ingredients": [
-                {"Ingredient": "Water","Quantity": 1},
-                {"Ingredient":"Gold Ore","Quantity":1},
-                {"Ingredient":"Blinkroot","Quantity":1},
-                {"Ingredient":"Moonglow","Quantity":1}
-            ],
-            "Hardmode": false
-        },
-        {
-            "name": "Summoning",
-            "Ingredients": [
-                {"Ingredient": "Water","Quantity": 1},
-                {"Ingredient":"Variegated Lardfish","Quantity":1},
-                {"Ingredient":"Moonglow","Quantity":1}
-            ],
-            "Hardmode": false
-        },
-        {
-            "name": "Swiftness",
-            "Ingredients": [
-                {"Ingredient": "Water","Quantity": 1},
-                {"Ingredient":"Blinkroot","Quantity":1},
-                {"Ingredient":"Cactus","Quantity":1}
-            ],
-            "Hardmode": false
-        },
-        {
-            "name": "Teleportation",
-            "Ingredients": [
-                {"Ingredient": "Water","Quantity": 1},
-                {"Ingredient":"Chaos Fish","Quantity":1},
-                {"Ingredient":"Fireblossom","Quantity":1}
-            ],
-            "Hardmode": true
-        },
-        {
-            "name": "Thorns",
-            "Ingredients": [
-                {"Ingredient": "Water","Quantity": 1},
-                {"Ingredient":"Deathweed","Quantity":1},
-                {"Ingredient":"Cactus","Quantity":1},
-                {"Ingredient":"Stinger/Wormtooth","Quantity":1}
-            ],
-            "Hardmode": false
-        },
-        {
-            "name":"Ale",
-            "Ingredients":[
-                {"Ingredient":"mug","Quantity":1}],
-            "Hardmode":false
-        },
-        {
-            "name":"Sake"
-        },
-        {
-            "name": "Titan",
-            "Ingredients": [
-                {"Ingredient": "Water","Quantity": 1},
-                {"Ingredient":"Bone","Quantity":1},
-                {"Ingredient":"Deathweed","Quantity":1},
-                {"Ingredient":"Shiverthorn","Quantity":1}
-            ],
-            "Hardmode": false
-        },
-        {
-            "name": "Water Walking",
-            "Ingredients": [
-                {"Ingredient": "Water","Quantity": 1},
-                {"Ingredient":"Waterleaf","Quantity":1},
-                {"Ingredient":"Shark Fin","Quantity":1}
-            ],
-            "Hardmode": false
-        },
-        {
-            "name": "Wormhole",
-            "Ingredients": [
-                {"Ingredient": "Water","Quantity": 1},
-                {"Ingredient":"Specular Fish","Quantity":1},
-                {"Ingredient":"Blinkroot","Quantity":1}
-            ],
-            "Hardmode": false
-        },
-        {
-            "name": "Wrath",
-            "Ingredients": [
-                {"Ingredient": "Water","Quantity": 1},
-                {"Ingredient":"Ebonkoi","Quantity":1},
-                {"Ingredient":"Deathweed","Quantity":1}
-            ],
-            "Hardmode": false
-        }]}
+let allPotionsList = document.getElementById("list-of-potions");
+let allPotionsUnorderedList = document.createElement("ul");
+allPotionsList.appendChild(allPotionsUnorderedList);
+let selectedPotionsList = document.getElementById("list-of-selected-potions");
+let potionsImg = document.getElementById("potions-icon");
+let potionsDescription = document.getElementById("potions-information");
+// id selectors for the navigation
+let infoButton = document.getElementById("info-btn");
+let IngredientsButton = document.getElementById("ingredients-btn");
+
+
+
+/* 
+<li class="potions-container-list-item">
+    <div class="potion-container">
+        <label for="potion-0">
+            <input type="checkbox" name="select-0" id="potion-0">
+            <img id="potion-0-img" src="" alt="">
+            <p id="potion-0-name"></p>
+            <p id="potion-0-description"></p>
+        </label>
+    </div>
+</li> 
+*/
+
+$.getJSON( recipeJson, function( data ) {
+    let potions = data.potions;
+    for (let i = 0; i < potions.length; i++) {
+        let potion = potions[i];
         
-console.log(recipes)
+        let potionName = potion.name;
+        let potionIngredients = potion.ingredients;
+        let potionDescription = potion.description;
+        let potionDuration = potion.duration;
+        let potionImg = potion.icon;
+        let potionHardmode = potion.hardmode;
+
+        let potionsConatainerListItem = document.createElement("li");
+        potionsConatainerListItem.classList.add("potions-container-list-item");
+
+        let potionContainer = document.createElement("div");
+        potionContainer.classList.add("potion-container");
+
+        let potionLabel = document.createElement("label");
+        potionLabel.setAttribute("for", "potion-" + i);
+
+        let potionInput = document.createElement("input");
+        potionInput.setAttribute("type", "checkbox");
+        potionInput.setAttribute("name", "select-" + i);
+        potionInput.setAttribute("id", "potion-" + i);
+
+        let potionImgElement = document.createElement("img");
+        potionImgElement.setAttribute("id", "potion-" + i + "-img");
+        potionImgElement.setAttribute("src", potionImg);
+        potionImgElement.setAttribute("alt", potionName);
+
+        let potionNameElement = document.createElement("p");
+        potionNameElement.setAttribute("id", "potion-" + i + "-name");
+        potionNameElement.innerHTML = potionName;
+
+        let potionDescriptionElement = document.createElement("p");
+        potionDescriptionElement.setAttribute("id", "potion-" + i + "-description");
+        potionDescriptionElement.innerHTML = potionDescription;
+
+        potionLabel.appendChild(potionInput);
+        potionLabel.appendChild(potionImgElement);
+        potionLabel.appendChild(potionNameElement);
+        potionLabel.appendChild(potionDescriptionElement);
+
+        potionContainer.appendChild(potionLabel);
+        potionsConatainerListItem.appendChild(potionContainer);
+        allPotionsUnorderedList.appendChild(potionsConatainerListItem);
+
+    }
+});
+
+
+let checkBox = document.getElementById('potion-0'); //testing event listener on checkbox event listener with form
+checkBox.addEventListener('click', function() {
+    if (checkBox.checked) {
+        selectedPotionsList.appendChild(allPotionsList.children[0]);
+    } else {
+        allPotionsList.appendChild(selectedPotionsList.children[0]);
+    }
+}
+);
