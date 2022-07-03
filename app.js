@@ -73,16 +73,62 @@ $.getJSON( recipeJson, function( data ) {
         potionsConatainerListItem.appendChild(potionContainer);
         allPotionsUnorderedList.appendChild(potionsConatainerListItem);
 
+        // add event listener to the checkbox
+        let potionInputElement = document.getElementById("potion-" + i);
+        potionInputElement.addEventListener("change", function() {
+            // if (potionInputElement.checked) {
+            //     // add potion to the selected potions list
+            //     let potionContainer = document.createElement("div");
+            //     potionContainer.classList.add("potion-container");
+            //     potionContainer.setAttribute("id", "potion-" + i);
+
+            //     let potionImgElement = document.createElement("img");
+            //     potionImgElement.setAttribute("src", potionImg);
+            //     potionImgElement.setAttribute("alt", potionName);
+
+            //     let potionNameElement = document.createElement("p");
+            //     potionNameElement.innerHTML = potionName;
+
+            //     let potionDescriptionElement = document.createElement("p");
+            //     potionDescriptionElement.innerHTML = potionDescription;
+
+            //     potionContainer.appendChild(potionImgElement);
+            //     potionContainer.appendChild(potionNameElement);
+            //     potionContainer.appendChild(potionDescriptionElement);
+
+            //     selectedPotionsList.appendChild(potionContainer);
+            //     potionsImg.setAttribute("src", potionImg);
+            //     potionsDescription.innerHTML = potionDescription;
+            // } else {
+            //     // remove potion from the selected potions list
+            //     let selectedPotionContainer = document.getElementById("potion-" + i);
+            //     selectedPotionsList.removeChild(selectedPotionContainer);
+            //     if (selectedPotionsList.children.length === 0) {
+            //         potionsImg.setAttribute("src", "");
+            //         potionsDescription.innerHTML = "";
+            //     }
+            // }
+            if (potionInputElement.checked) {
+                let potname = document.createElement("p")
+                potname.innerHTML = potionName;
+                potname.setAttribute("id", "potion-" + i + "-namee");
+                selectedPotionsList.appendChild(potname);
+            } else {
+                let pootname = document.getElementById("potion-" + i + "-namee");
+                selectedPotionsList.removeChild(pootname);
+            }
+        });
     }
 });
 
 
-let checkBox = document.getElementById('potion-0'); //testing event listener on checkbox event listener with form
-checkBox.addEventListener('click', function() {
-    if (checkBox.checked) {
-        selectedPotionsList.appendChild(allPotionsList.children[0]);
-    } else {
-        allPotionsList.appendChild(selectedPotionsList.children[0]);
-    }
-}
-);
+
+// let checkBox = document.getElementById('potion-0'); //testing event listener on checkbox event listener with form
+// checkBox.addEventListener('click', function() {
+//     if (checkBox.checked) {
+//         selectedPotionsList.appendChild(allPotionsList.children[0]);
+//     } else {
+//         allPotionsList.appendChild(selectedPotionsList.children[0]);
+//     }
+// }
+// );

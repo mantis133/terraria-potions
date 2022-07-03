@@ -6,7 +6,10 @@
                 {"Ingredient": "Water","Quantity": 1},
                 {"Ingredient":"Double Cod","Quantity":1},
                 {"Ingredient":"Moonglow","Quantity":1}],
-            "Hardmode": false
+            "Hardmode": false,
+            "description": "",
+            "duration": "",
+            "icon": "icons/potions/Ammo_Reservation_Potion.png"
         },
         {
             "name": "Archery",
@@ -14,7 +17,10 @@
                 {"Ingredient": "Water","Quantity": 1},
                 {"Ingredient":"lens","Quantity":1},
                 {"Ingredient":"Daybloom","Quantity":1}],
-            "Hardmode": false
+            "Hardmode": false,
+            "description": "",
+            "duration": "",
+            "icon": "icons/potions/Archery_Potion.png"
         },
         {
             "name": "Battle",
@@ -22,7 +28,10 @@
                 {"Ingredient": "Water","Quantity": 1},
                 {"Ingredient":"Deathweed","Quantity":1},
                 {"Ingredient":"Rotten Chunk","Quantity":1}],
-            "Hardmode": false
+            "Hardmode": false,
+            "description": "",
+            "duration": "",
+            "icon": "icons/potions/Battle_Potion.png"
         },
         {
             "name":"Builder",
@@ -31,7 +40,10 @@
                 {"Ingredient":"Blinkroot","Quantity":1},
                 {"Ingredient":"Shiverthorn","Quantity":1},
                 {"Ingredient":"Moonglow","Quantity":1}],
-            "Hardmode":false
+            "Hardmode":false,
+            "description": "",
+            "duration": "",
+            "icon": "icons/potions/Builder_Potion.png"
         },
         {
             "name":"Calming",
@@ -39,7 +51,10 @@
                 {"Ingredient":"Water","Quantity":1},
                 {"Ingredient":"Damselfish","Quantity":1},
                 {"Ingredient":"Daybloom","Quantity":1}],
-            "Hardmode":false
+            "Hardmode":false,
+            "description": "",
+            "duration": "",
+            "icon": "icons/potions/Calming_Potion.png"
         },
         {
             "name":"Crate",
@@ -49,7 +64,10 @@
                 {"Ingredient":"Moonglow","Quantity":1},
                 {"Ingredient":"Shiverthorn","Quantity":1},
                 {"Ingredient":"Waterleaf","Quantity":1}],
-            "Hardmode":false
+            "Hardmode":false,
+            "description": "",
+            "duration": "",
+            "icon": "icons/potions/Crate_Potion.png"
         },
         {
             "name": "Dangersense",
@@ -58,7 +76,10 @@
                 {"Ingredient":"Shiverthorn","Quantity":1},
                 {"Ingredient":"Cobweb","Quantity":10}
             ],
-            "Hardmode": false
+            "Hardmode": false,
+            "description": "",
+            "duration": "",
+            "icon": "icons/potions/Dangersense_Potion.png"
         },
         {
             "name": "Endurance",
@@ -67,7 +88,10 @@
                 {"Ingredient":"Armored Cavefish","Quantity":1},
                 {"Ingredient":"Blinkroot","Quantity":1}
             ],
-            "Hardmode": false
+            "Hardmode": false,
+            "description": "",
+            "duration": "",
+            "icon": "icons/potions/Endurance_Potion.png"
         },
         {
             "name":"Featherfall",
@@ -76,7 +100,10 @@
                 {"Ingredient":"Daybloom","Quantity":1},
                 {"Ingredient":"Blinkroot","Quantity":1},
                 {"Ingredient":"Feather","Quantity":1}],
-            "Hardmode":false
+            "Hardmode":false,
+            "description": "",
+            "duration": "",
+            "icon": "icons/potions/Featherfall_Potion.png"
         },
         {
             "name":"Fishing",
@@ -84,7 +111,10 @@
                 {"Ingredient":"Water","Quantity":1},
                 {"Ingredient":"Crispy Honey Block","Quantity":1},
                 {"Ingredient":"Waterleaf","Quantity":1}],
-            "Hardmode":false
+            "Hardmode":false,
+            "description": "",
+            "duration": "",
+            "icon": "icons/potions/Fishing_Potion.png"
         },
         {
             "name":"Flipper",
@@ -92,7 +122,10 @@
                 {"Ingredient":"Water","Quantity":1},
                 {"Ingredient":"Shiverthorn","Quantity":1},
                 {"Ingredient":"Waterleaf","Quantity":1}],
-            "Hardmode":false
+            "Hardmode":false,
+            "description": "",
+            "duration": "",
+            "icon": "icons/potions/Flipper_Potion.png"
         },
         {
             "name":"Gills",
@@ -100,7 +133,10 @@
                 {"Ingredient":"Water","Quantity":1},
                 {"Ingredient":"Waterleaf","Quantity":1},
                 {"Ingredient":"Coral","Quantity":1}],
-            "Hardmode":false
+            "Hardmode":false,
+            "description": "",
+            "duration": "",
+            "icon": "icons/potions/Gills_Potion.png"
         },
         {
             "name":"Gravitation",
@@ -110,7 +146,10 @@
                 {"Ingredient":"Deathweed","Quantity":1},
                 {"Ingredient":"Blinkroot","Quantity":1},
                 {"Ingredient":"Feather","Quantity":1}],
-            "Hardmode":false
+            "Hardmode":false,
+            "description": "",
+            "duration": "",
+            "icon": "icons/potions/Gravitation_Potion.png"
         },
         {
             "name": "Heartreach",
@@ -119,7 +158,10 @@
                 {"Ingredient":"Crimson Tigarfish","Quantity":1},
                 {"Ingredient":"Daybloom","Quantity":1}
             ],
-            "Hardmode": false
+            "Hardmode": false,
+            "description": "",
+            "duration": "",
+            "icon": "icons/potions/Heartreach_Potion.png"
         },
         {
             "name": "Hunter",
@@ -129,7 +171,10 @@
                 {"Ingredient":"Blinkroot","Quantity":1},
                 {"Ingredient":"Shark Fin","Quantity":1}
             ],
-            "Hardmode": false
+            "Hardmode": false,
+            "description": "",
+            "duration": "",
+            "icon": "icons/potions/Hunter_Potion.png"
         },
         {
             "name": "Inferno",
@@ -138,7 +183,10 @@
                 {"Ingredient":"Obsidifish","Quantity":1},
                 {"Ingredient":"Fireblossom","Quantity":1}
             ],
-            "Hardmode": false
+            "Hardmode": false,
+            "description": "",
+            "duration": "",
+            "icon": "icons/potions/Inferno_Potion.png"
         },
         {
             "name":"Invisibility",
@@ -146,7 +194,10 @@
                 {"Ingredient":"Water","Quantity":1},
                 {"Ingredient":"Blinkroot","Quantity":1},
                 {"Ingredient":"Moonglow","Quantity":1}],
-            "Hardmode":false
+            "Hardmode":false,
+            "description": "",
+            "duration": "",
+            "icon": "icons/potions/Invisibility_Potion.png"
         },
         {
             "name": "Ironskin",
@@ -158,7 +209,7 @@
             "Hardmode": false,
             "description": "Increase defense by 8",
             "duration": "8 minutes",
-            "icon": "icons/Ironskin_Potion.png"
+            "icon": "icons/potions/Ironskin_Potion.png"
         },
         {
             "name": "Lifeforce",
@@ -169,7 +220,10 @@
                 {"Ingredient":"Shiverthorn","Quantity":1},
                 {"Ingredient":"Waterleaf","Quantity":1}
             ],
-            "Hardmode": true
+            "Hardmode": true,
+            "description": "",
+            "duration": "",
+            "icon": "icons/potions/Lifeforce_Potion.png"
         },
         {
             "name":"Lesser Luck",
@@ -178,7 +232,10 @@
                 {"Ingredient":"Waterleaf","Quantity":1},
                 {"Ingredient":"Ladybug","Quantity":1},
                 {"Ingredient":"White Pearl","Quantity":1}],
-            "Hardmode":false
+            "Hardmode":false,
+            "description": "",
+            "duration": "",
+            "icon": "icons/potions/Lesser_Luck_Potion.png"
         },
         {
             "name":"Luck",
@@ -187,7 +244,10 @@
                 {"Ingredient":"Waterleaf","Quantity":1},
                 {"Ingredient":"Ladybug","Quantity":1},
                 {"Ingredient":"Black Pearl","Quantity":1}],
-            "Hardmode":false
+            "Hardmode":false,
+            "description": "",
+            "duration": "",
+            "icon": "icons/potions/Luck_Potion.png"
         },
         {
             "name":"Greater Luck",
@@ -196,7 +256,10 @@
                 {"Ingredient":"Waterleaf","Quantity":1},
                 {"Ingredient":"Ladybug","Quantity":1},
                 {"Ingredient":"Pink Pearl","Quantity":1}],
-            "Hardmode":false
+            "Hardmode":false,
+            "description": "",
+            "duration": "",
+            "icon": "icons/potions/Greater_Luck_Potion.png"
         },
         {
             "name": "Magic Power",
@@ -206,7 +269,10 @@
                 {"Ingredient":"Deathweed","Quantity":1},
                 {"Ingredient":"Fallen Star","Quantity":1}
             ],
-            "Hardmode": false
+            "Hardmode": false,
+            "description": "",
+            "duration": "",
+            "icon": "icons/potions/Magic_Power_Potion.png"
         },
         {
             "name": "Mana Regeneration",
@@ -216,7 +282,10 @@
                 {"Ingredient":"Daybloom","Quantity":1},
                 {"Ingredient":"Fallen Star","Quantity":1}
             ],
-            "Hardmode": false
+            "Hardmode": false,
+            "description": "",
+            "duration": "",
+            "icon": "icons/potions/Mana_Regeneration_Potion.png"
         },
         {
             "name": "Mining",
@@ -225,7 +294,10 @@
                 {"Ingredient":"Antlion Mandible","Quantity":1},
                 {"Ingredient":"Blinkroot","Quantity":1}
             ],
-            "Hardmode": false
+            "Hardmode": false,
+            "description": "",
+            "duration": "",
+            "icon": "icons/potions/Mining_Potion.png"
         },
         {
             "name": "Night Owl",
@@ -234,7 +306,10 @@
                 {"Ingredient":"Daybloom","Quantity":1},
                 {"Ingredient":"Blinkroot","Quantity":1}
             ],
-            "Hardmode": false
+            "Hardmode": false,
+            "description": "",
+            "duration": "",
+            "icon": "icons/potions/Night_Owl_Potion.png"
         },
         {
             "name": "Obsidian Skin",
@@ -244,7 +319,10 @@
                 {"Ingredient":"Waterleaf","Quantity":1},
                 {"Ingredient":"Obsidian","Quantity":1}
             ],
-            "Hardmode": false
+            "Hardmode": false,
+            "description": "",
+            "duration": "",
+            "icon": "icons/potions/Obsidian_Skin_Potion.png"
         },
         {
             "name": "Rage",
@@ -253,7 +331,10 @@
                 {"Ingredient":"Hemopiranha","Quantity":1},
                 {"Ingredient":"Deathweed","Quantity":1}
             ],
-            "Hardmode": false
+            "Hardmode": false,
+            "description": "",
+            "duration": "",
+            "icon": "icons/potions/Rage_Potion.png"
         },
         {
             "name": "Regeneration",
@@ -262,7 +343,10 @@
                 {"Ingredient":"Daybloom","Quantity":1},
                 {"Ingredient":"Mushroom","Quantity":1}
             ],
-            "Hardmode": false
+            "Hardmode": false,
+            "description": "",
+            "duration": "",
+            "icon": "icons/potions/Regeneration_Potion.png"
         },
         {
             "name": "Shine",
@@ -271,7 +355,10 @@
                 {"Ingredient":"Daybloom","Quantity":1},
                 {"Ingredient":"Glowing Mushroom","Quantity":1}
             ],
-            "Hardmode": false
+            "Hardmode": false,
+            "description": "",
+            "duration": "",
+            "icon": "icons/potions/Shine_Potion.png"
         },
         {
             "name":"Sonar",
@@ -279,7 +366,10 @@
                 {"Ingredient":"Water","Quantity":1},
                 {"Ingredient":"Waterleaf","Quantity":1},
                 {"Ingredient":"Coral","Quantity":1}],
-            "Hardmode":false
+            "Hardmode":false,
+            "description": "",
+            "duration": "",
+            "icon": "icons/potions/Sonar_Potion.png"
         },
         {
             "name": "Spelunker",
@@ -289,7 +379,10 @@
                 {"Ingredient":"Blinkroot","Quantity":1},
                 {"Ingredient":"Moonglow","Quantity":1}
             ],
-            "Hardmode": false
+            "Hardmode": false,
+            "description": "",
+            "duration": "",
+            "icon": "icons/potions/Spelunker_Potion.png"
         },
         {
             "name": "Summoning",
@@ -298,7 +391,10 @@
                 {"Ingredient":"Variegated Lardfish","Quantity":1},
                 {"Ingredient":"Moonglow","Quantity":1}
             ],
-            "Hardmode": false
+            "Hardmode": false,
+            "description": "",
+            "duration": "",
+            "icon": "icons/potions/Summoning_Potion.png"
         },
         {
             "name": "Swiftness",
@@ -307,16 +403,10 @@
                 {"Ingredient":"Blinkroot","Quantity":1},
                 {"Ingredient":"Cactus","Quantity":1}
             ],
-            "Hardmode": false
-        },
-        {
-            "name": "Teleportation",
-            "Ingredients": [
-                {"Ingredient": "Water","Quantity": 1},
-                {"Ingredient":"Chaos Fish","Quantity":1},
-                {"Ingredient":"Fireblossom","Quantity":1}
-            ],
-            "Hardmode": true
+            "Hardmode": false,
+            "description": "",
+            "duration": "",
+            "icon": "icons/potions/Swiftness_Potion.png"
         },
         {
             "name": "Thorns",
@@ -326,16 +416,10 @@
                 {"Ingredient":"Cactus","Quantity":1},
                 {"Ingredient":"Stinger/Wormtooth","Quantity":1}
             ],
-            "Hardmode": false
-        },
-        {
-            "name":"Ale",
-            "Ingredients":[
-                {"Ingredient":"mug","Quantity":1}],
-            "Hardmode":false
-        },
-        {
-            "name":"Sake"
+            "Hardmode": false,
+            "description": "",
+            "duration": "",
+            "icon": "icons/potions/Thorns_Potion.png"
         },
         {
             "name": "Titan",
@@ -345,7 +429,10 @@
                 {"Ingredient":"Deathweed","Quantity":1},
                 {"Ingredient":"Shiverthorn","Quantity":1}
             ],
-            "Hardmode": false
+            "Hardmode": false,
+            "description": "",
+            "duration": "",
+            "icon": "icons/potions/Titan_Potion.png"
         },
         {
             "name": "Water Walking",
@@ -354,16 +441,10 @@
                 {"Ingredient":"Waterleaf","Quantity":1},
                 {"Ingredient":"Shark Fin","Quantity":1}
             ],
-            "Hardmode": false
-        },
-        {
-            "name": "Wormhole",
-            "Ingredients": [
-                {"Ingredient": "Water","Quantity": 1},
-                {"Ingredient":"Specular Fish","Quantity":1},
-                {"Ingredient":"Blinkroot","Quantity":1}
-            ],
-            "Hardmode": false
+            "Hardmode": false,
+            "description": "",
+            "duration": "",
+            "icon": "icons/potions/Water_Walking_Potion.png"
         },
         {
             "name": "Wrath",
@@ -372,7 +453,10 @@
                 {"Ingredient":"Ebonkoi","Quantity":1},
                 {"Ingredient":"Deathweed","Quantity":1}
             ],
-            "Hardmode": false
+            "Hardmode": false,
+            "description": "",
+            "duration": "",
+            "icon": "icons/potions/Wrath_Potion.png"
         }],
 
     "Flasks": [
@@ -440,8 +524,125 @@
             ],
             "Hardmode":false
         }],
+        "OtherPotions":[
+            {
+                "name":"Gender Change",
+                "Ingredients":[
+                    {"Ingredient":"Water","Quantity":1},
+                    {"Ingredient":"Daybloom","Quantity":1},
+                    {"Ingredient":"Moonglow","Quantity":1},
+                    {"Ingredient":"Blinkroot","Quantity":1},
+                    {"Ingredient":"Waterleaf","Quantity":1},
+                    {"Ingredient":"Deathweed","Quantity":1},
+                    {"Ingredient":"Shiverthorn","Quantity":1},
+                    {"Ingredient":"Fireblossom","Quantity":1}
+                ],
+                "Hardmode":false,
+                "description":"",
+                "icon":"icons/potions/Gender_Change_potion.png"
+            },
+            {
+                "name":"Return",
+                "Ingredients":[
+                    {"Ingredient":"Obsidifish","Quantity":1},
+                    {"Ingredient":"Recall Potion","Quantity":1}
+                ],
+                "Hardmode":false,
+                "description":"Teleports you home and creates a portal Use portal to return when you are done 'Good for one round trip!'",
+                "icon":"icons/potions/Potion_Of_Return.png"
+            },
+            {
+                "name":"Recall",
+                "Ingredients":[
+                    {"Ingredient":"Water","Quantity":1},
+                    {"Ingredient":"Specular Fish","Quantity":1},
+                    {"Ingredient":"Daybloom","Quantity":1}
+                ],
+                "Hardmode":false,
+                "description":"Teleports you home",
+                "icon": "icons/potions/Recall_Potion.png"
+            },
+            {
+                "name": "Teleportation",
+                "Ingredients": [
+                    {"Ingredient":"Water","Quantity": 1},
+                    {"Ingredient":"Chaos Fish","Quantity":1},
+                    {"Ingredient":"Fireblossom","Quantity":1}
+                ],
+                "Hardmode": true,
+                "description": "Teleports you to a random location",
+                "icon": "icons/potions/Teleportation_Potion.png"
+            },
+            {
+                "name": "Wormhole",
+                "Ingredients": [
+                    {"Ingredient": "Water","Quantity": 1},
+                    {"Ingredient":"Specular Fish","Quantity":1},
+                    {"Ingredient":"Blinkroot","Quantity":1}
+                ],
+                "Hardmode": false,
+                "description": "Teleports you to a party member Click their head on the fullscreen map",
+                "icon": "icons/potions/Wormhole_Potion.png"
+            }
+        ],
+    
+        "Ingredients":[
+        {
+            "name":"Water",
+            "icon":"icons/ingredients/Bottled_Water.png",
+            "hardmode":false,
+            "wikilink":""
+        },
+        {
+            "name":"Daybloom",
+            "icon":"icons/ingredients/Daybloom.png",
+            "hardmode": false,
+            "wikilink": "https://terraria.fandom.com/wiki/Daybloom"
+        },
+        {
+            "name":"Blinkroot",
+            "icon":"icons/ingredients/Blinkroot.png"
+        },
+        {
+            "name":"Moonglow",
+            "icon":"icons/ingredients/Moonglow.png"
+        },
+        {
+            "name":"Waterleaf",
+            "icon":"icons/ingredients/Waterleaf.png"
+        },
+        {
+            "name":"Shiverthorn",
+            "icon":"icons/ingredients/Shiverthorn.png"
+        },
+        {
+            "name":"Deathweed",
+            "icon":"icons/ingredients/Deathweed.png"
+        },
+        {
+            "name":"Fireblossom",
+            "icon":"icons/ingredients/Fireblossom.png"
+        }
+        
+    ],
+    
     "Food":[
-
+        {
+            "name":"Ale",
+            "Ingredients":[
+                {"Ingredient":"mug","Quantity":1}],
+            "Hardmode":false,
+            "description": "",
+            "duration": "",
+            "icon": "icons/food/Ale.png"
+        },
+        {
+            "name":"Sake",
+            "Hardmode":false,
+            "description": "",
+            "duration": "",
+            "icon": "icons/food/Sake.png"
+        }
     ],
     "Furnature":{
         "Activated":[
