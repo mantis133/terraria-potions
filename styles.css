@@ -3,4 +3,35 @@
     src: url(fonts/Andy\ Bold.ttf);
 }
 
+/*the size of potion icons is 20x30*/
 
+#all-potions-list{
+    list-style-type: none;
+    position: absolute;
+    margin:0;
+    padding: 0;
+    width: 217px;
+    max-height: 800px;
+    background-color: #f1f1f1;
+    overflow: auto;
+    float:right;
+    right:100px;
+}
+#list-of-selected-potions{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    width: 217px;
+    max-height: 800px;
+    background-color: #f1f1f1;
+    overflow: auto;
+    float: right;
+    margin-right: 30px;
+    position: absolute;
+    right:300px;
+}
+#all-potions-list::-webkit-scrollbar, #list-of-selected-potions::-webkit-scrollbar {
+    width: 5px;
+    height: 20px;
+    border-radius: 1%;
+}
