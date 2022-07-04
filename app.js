@@ -121,11 +121,13 @@ $.getJSON( recipeJson, function( data ) {
                 potionNameElement.innerHTML = potionName;
                 potionNameElement.setAttribute("id", "potion-" + i + "-name-selected");
                 potionNameElement.classList.add("potion-name-selected");
+                potionNameElement.style.fontFamily="andyBold"
                 // create the potion description to put into the container
                 let potionDescriptionElement = document.createElement("p");
                 potionDescriptionElement.innerHTML = potionDescription;
                 potionDescriptionElement.setAttribute("id", "potion-" + i + "-description-selected");
                 potionDescriptionElement.classList.add("potion-description-selected");
+                potionDescriptionElement.style.fontFamily = "andyBold"
                 // place all the potion info into the container
                 selectedPotionContainer.appendChild(potionImgElement);
                 selectedPotionContainer.appendChild(potionNameElement);
