@@ -27,7 +27,7 @@
             "Ingredients": [
                 {"Ingredient": "Water","Quantity": 1},
                 {"Ingredient":"Deathweed","Quantity":1},
-                {"Ingredient":"Rotten Chunk","Quantity":1}],
+                {"Ingredient":"Rotten Chunk","Quantity":1,"Alternate":"Vertebra"}],
             "Hardmode": false,
             "description": "Increases enemy spawn rate",
             "duration": "7 minutes",
@@ -180,7 +180,8 @@
             "name": "Inferno",
             "Ingredients": [
                 {"Ingredient": "Water","Quantity": 1},
-                {"Ingredient":"Obsidifish","Quantity":1},
+                {"Ingredient":"Flairfin Koi","Quantity":1},
+                {"Ingredient":"Obsidifish","Quantity":2},
                 {"Ingredient":"Fireblossom","Quantity":1}
             ],
             "Hardmode": false,
@@ -204,7 +205,7 @@
             "Ingredients": [
                 {"Ingredient": "Water","Quantity": 1},
                 {"Ingredient":"Daybloom","Quantity":1},
-                {"Ingredient":"Iron Ore","Quantity":1}
+                {"Ingredient":"Iron Ore","Quantity":1,"Alternate":"Lead Ore"}
             ],
             "Hardmode": false,
             "description": "Increase defense by 8",
@@ -375,7 +376,7 @@
             "name": "Spelunker",
             "Ingredients": [
                 {"Ingredient": "Water","Quantity": 1},
-                {"Ingredient":"Gold Ore","Quantity":1},
+                {"Ingredient":"Gold Ore","Quantity":1,"Alternate":"Platinum Ore"},
                 {"Ingredient":"Blinkroot","Quantity":1},
                 {"Ingredient":"Moonglow","Quantity":1}
             ],
@@ -414,7 +415,8 @@
                 {"Ingredient": "Water","Quantity": 1},
                 {"Ingredient":"Deathweed","Quantity":1},
                 {"Ingredient":"Cactus","Quantity":1},
-                {"Ingredient":"Stinger/Wormtooth","Quantity":1}
+                {"Ingredient":"Stinger","Quantity":1},
+                {"Ingredient":"Wormtooth","Quantity":1}
             ],
             "Hardmode": false,
             "description": "Attackers also take damage",
@@ -435,7 +437,16 @@
             "icon": "icons/potions/Titan_Potion.png"
         },
         {
-            "name": "Warmth"
+            "name": "Warmth",
+            "Ingredients":[
+                {"Ingredient":"Water","Quantity":1},
+                {"Ingredient":"Frost Minnow","Quantity":1},
+                {"Ingredient":"Shiverthorn","Quantity":1}
+            ],
+            "Hardmode":false,
+            "description":"Reduces damage from cold sources",
+            "duration":"15 minutes",
+            "icon":"icons/potions/Warmth_Potion.png"
         },
         {
             "name": "Water Walking",
@@ -460,8 +471,8 @@
             "description": "Increases damage by 10%",
             "duration": "4 minutes",
             "icon": "icons/potions/Wrath_Potion.png"
-        }],
-
+        }
+    ],
     "Flasks": [
         {
             "name": "poison",
@@ -526,70 +537,70 @@
                 {"Ingredient":"Confetti","Quantity":5}
             ],
             "Hardmode":false
-        }],
-        "OtherPotions":[
-            {
-                "name":"Gender Change",
-                "Ingredients":[
-                    {"Ingredient":"Water","Quantity":1},
-                    {"Ingredient":"Daybloom","Quantity":1},
-                    {"Ingredient":"Moonglow","Quantity":1},
-                    {"Ingredient":"Blinkroot","Quantity":1},
-                    {"Ingredient":"Waterleaf","Quantity":1},
-                    {"Ingredient":"Deathweed","Quantity":1},
-                    {"Ingredient":"Shiverthorn","Quantity":1},
-                    {"Ingredient":"Fireblossom","Quantity":1}
-                ],
-                "Hardmode":false,
-                "description":"",
-                "icon":"icons/potions/Gender_Change_potion.png"
-            },
-            {
-                "name":"Return",
-                "Ingredients":[
-                    {"Ingredient":"Obsidifish","Quantity":1},
-                    {"Ingredient":"Recall Potion","Quantity":1}
-                ],
-                "Hardmode":false,
-                "description":"Teleports you home and creates a portal Use portal to return when you are done 'Good for one round trip!'",
-                "icon":"icons/potions/Potion_Of_Return.png"
-            },
-            {
-                "name":"Recall",
-                "Ingredients":[
-                    {"Ingredient":"Water","Quantity":1},
-                    {"Ingredient":"Specular Fish","Quantity":1},
-                    {"Ingredient":"Daybloom","Quantity":1}
-                ],
-                "Hardmode":false,
-                "description":"Teleports you home",
-                "icon": "icons/potions/Recall_Potion.png"
-            },
-            {
-                "name": "Teleportation",
-                "Ingredients": [
-                    {"Ingredient":"Water","Quantity": 1},
-                    {"Ingredient":"Chaos Fish","Quantity":1},
-                    {"Ingredient":"Fireblossom","Quantity":1}
-                ],
-                "Hardmode": true,
-                "description": "Teleports you to a random location",
-                "icon": "icons/potions/Teleportation_Potion.png"
-            },
-            {
-                "name": "Wormhole",
-                "Ingredients": [
-                    {"Ingredient": "Water","Quantity": 1},
-                    {"Ingredient":"Specular Fish","Quantity":1},
-                    {"Ingredient":"Blinkroot","Quantity":1}
-                ],
-                "Hardmode": false,
-                "description": "Teleports you to a party member Click their head on the fullscreen map",
-                "icon": "icons/potions/Wormhole_Potion.png"
-            }
-        ],
-    
-        "Ingredients":[
+        }
+    ],
+    "OtherPotions":[
+        {
+            "name":"Gender Change",
+            "Ingredients":[
+                {"Ingredient":"Water","Quantity":1},
+                {"Ingredient":"Daybloom","Quantity":1},
+                {"Ingredient":"Moonglow","Quantity":1},
+                {"Ingredient":"Blinkroot","Quantity":1},
+                {"Ingredient":"Waterleaf","Quantity":1},
+                {"Ingredient":"Deathweed","Quantity":1},
+                {"Ingredient":"Shiverthorn","Quantity":1},
+                {"Ingredient":"Fireblossom","Quantity":1}
+            ],
+            "Hardmode":false,
+            "description":"",
+            "icon":"icons/potions/Gender_Change_potion.png"
+        },
+        {
+            "name":"Return",
+            "Ingredients":[
+                {"Ingredient":"Obsidifish","Quantity":1},
+                {"Ingredient":"Recall Potion","Quantity":1}
+            ],
+            "Hardmode":false,
+            "description":"Teleports you home and creates a portal Use portal to return when you are done 'Good for one round trip!'",
+            "icon":"icons/potions/Potion_Of_Return.png"
+        },
+        {
+            "name":"Recall",
+            "Ingredients":[
+                {"Ingredient":"Water","Quantity":1},
+                {"Ingredient":"Specular Fish","Quantity":1},
+                {"Ingredient":"Daybloom","Quantity":1}
+            ],
+            "Hardmode":false,
+            "description":"Teleports you home",
+            "icon": "icons/potions/Recall_Potion.png"
+        },
+        {
+            "name": "Teleportation",
+            "Ingredients": [
+                {"Ingredient":"Water","Quantity": 1},
+                {"Ingredient":"Chaos Fish","Quantity":1},
+                {"Ingredient":"Fireblossom","Quantity":1}
+            ],
+            "Hardmode": true,
+            "description": "Teleports you to a random location",
+            "icon": "icons/potions/Teleportation_Potion.png"
+        },
+        {
+            "name": "Wormhole",
+            "Ingredients": [
+                {"Ingredient": "Water","Quantity": 1},
+                {"Ingredient":"Specular Fish","Quantity":1},
+                {"Ingredient":"Blinkroot","Quantity":1}
+            ],
+            "Hardmode": false,
+            "description": "Teleports you to a party member Click their head on the fullscreen map",
+            "icon": "icons/potions/Wormhole_Potion.png"
+        }
+    ], 
+    "Ingredients":[
         {
             "name":"Water",
             "icon":"icons/ingredients/Bottled_Water.png",
@@ -625,9 +636,185 @@
         {
             "name":"Fireblossom",
             "icon":"icons/ingredients/Fireblossom.png"
+        },
+        {
+            "name":"Lens"
+        },
+        {
+            "name":"Rotten Chunk"
+        },
+        {
+            "name":"Vertebra"
+        },
+        {
+            "name":"Amber"
+        },
+        {
+            "name":"Cobweb"
+        },
+        {
+            "name":"Feather"
+        },
+        {
+            "name":"Crispy Honey Block"
+        },
+        {
+            "name":"Coral"
+        },
+        {
+            "name":"Shark Fin"
+        },
+        {
+            "name":"Iron Ore"
+        },
+        {
+            "name":"Lead Ore"
+        },
+        {
+            "name":"Ladybug"
+        },
+        {
+            "name":"White Pearl"
+        },
+        {
+            "name":"Black Pearl"
+        },
+        {
+            "name":"Pink Pearl"
+        },
+        {
+            "name":"Fallen Star"
+        },
+        {
+            "name":"Antlion Mandible"
+        },
+        {
+            "name":"Obsidian"
+        },
+        {
+            "name":"Gold Ore"
+        },
+        {
+            "name":"Platinum Ore"
+        },
+        {
+            "name":"Mushroom"
+        },
+        {
+            "name":"Glowing Mushroom"
+        },
+        {
+            "name":"Cactus"
+        },
+        {
+            "name":"Worm Tooth"
+        },
+        {
+            "name":"Stinger"
+        },
+        {
+            "name":"Bone"
+        },
+        {
+            "name":"Cursed Flame"
+        },
+        {
+            "name":"Ichor"
+        },
+        {
+            "name":"Hellstone"
+        },
+        {
+            "name":"Gold Dust"
+        },
+        {
+            "name":"Nanites"
+        },
+        {
+            "name":"Confetti"
+        },
+        {
+            "name":"Vial of Venom"
+        },
+        {
+            "name":"Armored Cavefish"
+        },
+        {
+            "name":"Atlantic Cod"
+        },
+        {
+            "name":"Bass"
+        },
+        {
+            "name":"Chaos Fish"
+        },
+        {
+            "name":"Crimson Tigerfish"
+        },
+        {
+            "name":"Damselfish"
+        },
+        {
+            "name":"Double Cod"
+        },
+        {
+            "name":"Ebonkoi"
+        },
+        {
+            "name":"Flarefin Koi"
+        },
+        {
+            "name":"Flounder"
+        },
+        {
+            "name":"Frost Minnow"
+        },
+        {
+            "name":"Hemopiranha"
+        },
+        {
+            "name":"Honeyfin"
+        },
+        {
+            "name":"Neon Tetra"
+        },
+        {
+            "name":"Obsidifish"
+        },
+        {
+            "name":"Princess Fish"
+        },
+        {
+            "name":"Prismite"
+        },
+        {
+            "name":"Red Snapper"
+        },
+        {
+            "name":"Rock Lobster"
+        },
+        {
+            "name":"Salmon"
+        },
+        {
+            "name":"Shrimp"
+        },
+        {
+            "name":"Specular Fish"
+        },
+        {
+            "name":"Stinkfish"
+        },
+        {
+            "name":"Trout"
+        },
+        {
+            "name":"Tuna"
+        },
+        {
+            "name":"varigated Lardfish"
         }
     ],
-    
     "Food":[
         {
             "name":"Ale",

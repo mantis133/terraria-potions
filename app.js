@@ -89,7 +89,7 @@ $.getJSON( recipeJson, function( data ) {
         potionDescriptionElement.style.position = "relative";
         potionDescriptionElement.style.margin = "0px";
         potionDescriptionElement.style.top = "0px";
-        potionDescriptionElement.style.right = "5px";
+        potionDescriptionElement.style.right = "-2px";
         potionDescriptionElement.style.float = "right";
         // append the potion information to the potion container
         potionLabel.appendChild(potionInput);
