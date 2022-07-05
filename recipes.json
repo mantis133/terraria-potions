@@ -7,8 +7,8 @@
                 {"Ingredient":"Double Cod","Quantity":1},
                 {"Ingredient":"Moonglow","Quantity":1}],
             "Hardmode": false,
-            "description": "",
-            "duration": "",
+            "description": "20% chance to not consume ammo",
+            "duration": "8 minutes",
             "icon": "icons/potions/Ammo_Reservation_Potion.png"
         },
         {
@@ -18,8 +18,8 @@
                 {"Ingredient":"lens","Quantity":1},
                 {"Ingredient":"Daybloom","Quantity":1}],
             "Hardmode": false,
-            "description": "",
-            "duration": "",
+            "description": "20% increased arrow speed and damage",
+            "duration": "8 minutes",
             "icon": "icons/potions/Archery_Potion.png"
         },
         {
@@ -29,8 +29,8 @@
                 {"Ingredient":"Deathweed","Quantity":1},
                 {"Ingredient":"Rotten Chunk","Quantity":1}],
             "Hardmode": false,
-            "description": "",
-            "duration": "",
+            "description": "Increases enemy spawn rate",
+            "duration": "7 minutes",
             "icon": "icons/potions/Battle_Potion.png"
         },
         {
@@ -41,8 +41,8 @@
                 {"Ingredient":"Shiverthorn","Quantity":1},
                 {"Ingredient":"Moonglow","Quantity":1}],
             "Hardmode":false,
-            "description": "",
-            "duration": "",
+            "description": "Increases placement speed and range",
+            "duration": "45 minutes",
             "icon": "icons/potions/Builder_Potion.png"
         },
         {
@@ -52,8 +52,8 @@
                 {"Ingredient":"Damselfish","Quantity":1},
                 {"Ingredient":"Daybloom","Quantity":1}],
             "Hardmode":false,
-            "description": "",
-            "duration": "",
+            "description": "Decreases enemy spawn rate",
+            "duration": "8 minutes",
             "icon": "icons/potions/Calming_Potion.png"
         },
         {
@@ -65,8 +65,8 @@
                 {"Ingredient":"Shiverthorn","Quantity":1},
                 {"Ingredient":"Waterleaf","Quantity":1}],
             "Hardmode":false,
-            "description": "",
-            "duration": "",
+            "description": "Increases chance to get a crate",
+            "duration": "3 minutes",
             "icon": "icons/potions/Crate_Potion.png"
         },
         {
@@ -77,8 +77,8 @@
                 {"Ingredient":"Cobweb","Quantity":10}
             ],
             "Hardmode": false,
-            "description": "",
-            "duration": "",
+            "description": "Allows you to see nearby danger sources",
+            "duration": "10 minutes",
             "icon": "icons/potions/Dangersense_Potion.png"
         },
         {
@@ -89,8 +89,8 @@
                 {"Ingredient":"Blinkroot","Quantity":1}
             ],
             "Hardmode": false,
-            "description": "",
-            "duration": "",
+            "description": "Reduces damage taken by 10%",
+            "duration": "4 minutes",
             "icon": "icons/potions/Endurance_Potion.png"
         },
         {
@@ -101,8 +101,8 @@
                 {"Ingredient":"Blinkroot","Quantity":1},
                 {"Ingredient":"Feather","Quantity":1}],
             "Hardmode":false,
-            "description": "",
-            "duration": "",
+            "description": "Slows falling speed",
+            "duration": "10 minutes",
             "icon": "icons/potions/Featherfall_Potion.png"
         },
         {
@@ -112,8 +112,8 @@
                 {"Ingredient":"Crispy Honey Block","Quantity":1},
                 {"Ingredient":"Waterleaf","Quantity":1}],
             "Hardmode":false,
-            "description": "",
-            "duration": "",
+            "description": "Increases fishing power",
+            "duration": "8 minutes",
             "icon": "icons/potions/Fishing_Potion.png"
         },
         {
@@ -123,8 +123,8 @@
                 {"Ingredient":"Shiverthorn","Quantity":1},
                 {"Ingredient":"Waterleaf","Quantity":1}],
             "Hardmode":false,
-            "description": "",
-            "duration": "",
+            "description": "Lets you move swiftly in liquids",
+            "duration": "8 minutes",
             "icon": "icons/potions/Flipper_Potion.png"
         },
         {
@@ -134,8 +134,8 @@
                 {"Ingredient":"Waterleaf","Quantity":1},
                 {"Ingredient":"Coral","Quantity":1}],
             "Hardmode":false,
-            "description": "",
-            "duration": "",
+            "description": "Breathe water instead of air",
+            "duration": "4 minutes",
             "icon": "icons/potions/Gills_Potion.png"
         },
         {
@@ -147,8 +147,8 @@
                 {"Ingredient":"Blinkroot","Quantity":1},
                 {"Ingredient":"Feather","Quantity":1}],
             "Hardmode":false,
-            "description": "",
-            "duration": "",
+            "description": "Allows the control of gravity",
+            "duration": "3 minutes",
             "icon": "icons/potions/Gravitation_Potion.png"
         },
         {
@@ -159,8 +159,8 @@
                 {"Ingredient":"Daybloom","Quantity":1}
             ],
             "Hardmode": false,
-            "description": "",
-            "duration": "",
+            "description": "Increase the pickup range of the life hearts",
+            "duration": "8 minutes",
             "icon": "icons/potions/Heartreach_Potion.png"
         },
         {
@@ -172,8 +172,8 @@
                 {"Ingredient":"Shark Fin","Quantity":1}
             ],
             "Hardmode": false,
-            "description": "",
-            "duration": "",
+            "description": "Shows the location of enemies",
+            "duration": "8 minutes",
             "icon": "icons/potions/Hunter_Potion.png"
         },
         {
@@ -184,8 +184,8 @@
                 {"Ingredient":"Fireblossom","Quantity":1}
             ],
             "Hardmode": false,
-            "description": "",
-            "duration": "",
+            "description": "Ignites nearby enemies",
+            "duration": "4 minutes",
             "icon": "icons/potions/Inferno_Potion.png"
         },
         {
@@ -195,8 +195,8 @@
                 {"Ingredient":"Blinkroot","Quantity":1},
                 {"Ingredient":"Moonglow","Quantity":1}],
             "Hardmode":false,
-            "description": "",
-            "duration": "",
+            "description": "Grants invisibity and lowers the spawn rate of enemies",
+            "duration": "3 minutes",
             "icon": "icons/potions/Invisibility_Potion.png"
         },
         {
@@ -221,8 +221,8 @@
                 {"Ingredient":"Waterleaf","Quantity":1}
             ],
             "Hardmode": true,
-            "description": "",
-            "duration": "",
+            "description": "Increases max life by 20%",
+            "duration": "8 minutes",
             "icon": "icons/potions/Lifeforce_Potion.png"
         },
         {
@@ -233,8 +233,8 @@
                 {"Ingredient":"Ladybug","Quantity":1},
                 {"Ingredient":"White Pearl","Quantity":1}],
             "Hardmode":false,
-            "description": "",
-            "duration": "",
+            "description": "Increaseses the luck of the user",
+            "duration": "3 minutes",
             "icon": "icons/potions/Lesser_Luck_Potion.png"
         },
         {
@@ -245,8 +245,8 @@
                 {"Ingredient":"Ladybug","Quantity":1},
                 {"Ingredient":"Black Pearl","Quantity":1}],
             "Hardmode":false,
-            "description": "",
-            "duration": "",
+            "description": "Increases the luck of the user",
+            "duration": "5 minutes",
             "icon": "icons/potions/Luck_Potion.png"
         },
         {
@@ -257,8 +257,8 @@
                 {"Ingredient":"Ladybug","Quantity":1},
                 {"Ingredient":"Pink Pearl","Quantity":1}],
             "Hardmode":false,
-            "description": "",
-            "duration": "",
+            "description": "Increases the luck of the user",
+            "duration": "10 minutes",
             "icon": "icons/potions/Greater_Luck_Potion.png"
         },
         {
@@ -270,8 +270,8 @@
                 {"Ingredient":"Fallen Star","Quantity":1}
             ],
             "Hardmode": false,
-            "description": "",
-            "duration": "",
+            "description": "20% increased magic damage",
+            "duration": "4 minutes",
             "icon": "icons/potions/Magic_Power_Potion.png"
         },
         {
@@ -283,8 +283,8 @@
                 {"Ingredient":"Fallen Star","Quantity":1}
             ],
             "Hardmode": false,
-            "description": "",
-            "duration": "",
+            "description": "Increased mana regeneration",
+            "duration": "8 minutes",
             "icon": "icons/potions/Mana_Regeneration_Potion.png"
         },
         {
@@ -295,8 +295,8 @@
                 {"Ingredient":"Blinkroot","Quantity":1}
             ],
             "Hardmode": false,
-            "description": "",
-            "duration": "",
+            "description": "Increases mining speed by 25%",
+            "duration": "10 minutes",
             "icon": "icons/potions/Mining_Potion.png"
         },
         {
@@ -307,8 +307,8 @@
                 {"Ingredient":"Blinkroot","Quantity":1}
             ],
             "Hardmode": false,
-            "description": "",
-            "duration": "",
+            "description": "Increases night vision",
+            "duration": "10 minutes",
             "icon": "icons/potions/Night_Owl_Potion.png"
         },
         {
@@ -320,8 +320,8 @@
                 {"Ingredient":"Obsidian","Quantity":1}
             ],
             "Hardmode": false,
-            "description": "",
-            "duration": "",
+            "description": "Provides immunity to lava",
+            "duration": "6 minutes",
             "icon": "icons/potions/Obsidian_Skin_Potion.png"
         },
         {
@@ -332,8 +332,8 @@
                 {"Ingredient":"Deathweed","Quantity":1}
             ],
             "Hardmode": false,
-            "description": "",
-            "duration": "",
+            "description": "Increases critical chance by 10%",
+            "duration": "4 minutes",
             "icon": "icons/potions/Rage_Potion.png"
         },
         {
@@ -344,8 +344,8 @@
                 {"Ingredient":"Mushroom","Quantity":1}
             ],
             "Hardmode": false,
-            "description": "",
-            "duration": "",
+            "description": "Provides life regeneration",
+            "duration": "8 minutes",
             "icon": "icons/potions/Regeneration_Potion.png"
         },
         {
@@ -356,8 +356,8 @@
                 {"Ingredient":"Glowing Mushroom","Quantity":1}
             ],
             "Hardmode": false,
-            "description": "",
-            "duration": "",
+            "description": "Emits an aura of light",
+            "duration": "10 minutes",
             "icon": "icons/potions/Shine_Potion.png"
         },
         {
@@ -367,8 +367,8 @@
                 {"Ingredient":"Waterleaf","Quantity":1},
                 {"Ingredient":"Coral","Quantity":1}],
             "Hardmode":false,
-            "description": "",
-            "duration": "",
+            "description": "Detects hooked fish",
+            "duration": "8 minutes",
             "icon": "icons/potions/Sonar_Potion.png"
         },
         {
@@ -380,8 +380,8 @@
                 {"Ingredient":"Moonglow","Quantity":1}
             ],
             "Hardmode": false,
-            "description": "",
-            "duration": "",
+            "description": "Shows the location of treasure and ore",
+            "duration": "5 minutes",
             "icon": "icons/potions/Spelunker_Potion.png"
         },
         {
@@ -392,8 +392,8 @@
                 {"Ingredient":"Moonglow","Quantity":1}
             ],
             "Hardmode": false,
-            "description": "",
-            "duration": "",
+            "description": "Increases your max number of minions by 1",
+            "duration": "8 minutes",
             "icon": "icons/potions/Summoning_Potion.png"
         },
         {
@@ -404,8 +404,8 @@
                 {"Ingredient":"Cactus","Quantity":1}
             ],
             "Hardmode": false,
-            "description": "",
-            "duration": "",
+            "description": "25% increased movement speed",
+            "duration": "8 minutes",
             "icon": "icons/potions/Swiftness_Potion.png"
         },
         {
@@ -417,8 +417,8 @@
                 {"Ingredient":"Stinger/Wormtooth","Quantity":1}
             ],
             "Hardmode": false,
-            "description": "",
-            "duration": "",
+            "description": "Attackers also take damage",
+            "duration": "8 minuntes",
             "icon": "icons/potions/Thorns_Potion.png"
         },
         {
@@ -430,9 +430,12 @@
                 {"Ingredient":"Shiverthorn","Quantity":1}
             ],
             "Hardmode": false,
-            "description": "",
-            "duration": "",
+            "description": "Increases knockback",
+            "duration": "8 minutes",
             "icon": "icons/potions/Titan_Potion.png"
+        },
+        {
+            "name": "Warmth"
         },
         {
             "name": "Water Walking",
@@ -442,8 +445,8 @@
                 {"Ingredient":"Shark Fin","Quantity":1}
             ],
             "Hardmode": false,
-            "description": "",
-            "duration": "",
+            "description": "Allows the ability to walk on water",
+            "duration": "10 minutes",
             "icon": "icons/potions/Water_Walking_Potion.png"
         },
         {
@@ -454,8 +457,8 @@
                 {"Ingredient":"Deathweed","Quantity":1}
             ],
             "Hardmode": false,
-            "description": "",
-            "duration": "",
+            "description": "Increases damage by 10%",
+            "duration": "4 minutes",
             "icon": "icons/potions/Wrath_Potion.png"
         }],
 
@@ -623,7 +626,6 @@
             "name":"Fireblossom",
             "icon":"icons/ingredients/Fireblossom.png"
         }
-        
     ],
     
     "Food":[
