@@ -15,7 +15,7 @@
             "name": "Archery",
             "Ingredients": [
                 {"Ingredient": "Water","Quantity": 1},
-                {"Ingredient":"lens","Quantity":1},
+                {"Ingredient":"Lens","Quantity":1},
                 {"Ingredient":"Daybloom","Quantity":1}],
             "Hardmode": false,
             "description": "20% increased arrow speed and damage",
@@ -600,221 +600,221 @@
             "icon": "icons/potions/Wormhole_Potion.png"
         }
     ], 
-    "Ingredients":[
-        {
-            "name":"Water",
-            "icon":"icons/ingredients/Bottled_Water.png",
-            "hardmode":false,
-            "wikilink":""
+    "Ingredients":{
+            "Water":{
+                "name":"Water",
+                "icon":"icons/ingredients/Bottled_Water.png",
+                "hardmode":false,
+                "wikilink":""
+            },
+            "Daybloom":{
+                "name":"Daybloom",
+                "icon":"icons/ingredients/Daybloom.png",
+                "hardmode": false,
+                "wikilink": "https://terraria.fandom.com/wiki/Daybloom"
+            },
+            "Blinkroot":{
+                "name":"Blinkroot",
+                "icon":"icons/ingredients/Blinkroot.png"
+            },
+            "Moonglow":{
+                "name":"Moonglow",
+                "icon":"icons/ingredients/Moonglow.png"
+            },
+            "Waterleaf":{
+                "name":"Waterleaf",
+                "icon":"icons/ingredients/Waterleaf.png"
+            },
+            "Shiverthorn":{
+                "name":"Shiverthorn",
+                "icon":"icons/ingredients/Shiverthorn.png"
+            },
+            "Deathweed":{
+                "name":"Deathweed",
+                "icon":"icons/ingredients/Deathweed.png"
+            },
+            "Fireblossom":{
+                "name":"Fireblossom",
+                "icon":"icons/ingredients/Fireblossom.png"
+            },
+            "Lens":{
+                "name":"Lens"
+            },
+            "Rotton Chunk":{
+                "name":"Rotten Chunk"
+            },
+            "Vertebra":{
+                "name":"Vertebra"
+            },
+            "Amber":{
+                "name":"Amber"
+            },
+            "Cobweb":{
+                "name":"Cobweb"
+            },
+            "Feather":{
+                "name":"Feather"
+            },
+            "Crispy Honey Block":{
+                "name":"Crispy Honey Block"
+            },
+            "Coral":{
+                "name":"Coral"
+            },
+            "Shark Fin":{
+                "name":"Shark Fin"
+            },
+            "Iron Ore":{
+                "name":"Iron Ore"
+            },
+            "Lead Ore":{
+                "name":"Lead Ore"
+            },
+            "Ladybug":{
+                "name":"Ladybug"
+            },
+            "White Pearl":{
+                "name":"White Pearl"
+            },
+            "Black Pearl":{
+                "name":"Black Pearl"
+            },
+            "Pink Pearl":{
+                "name":"Pink Pearl"
+            },
+            "Fallen Star":{
+                "name":"Fallen Star"
+            },
+            "Antlion Mandible":{
+                "name":"Antlion Mandible"
+            },
+            "Obsidian":{
+                "name":"Obsidian"
+            },
+            "Gold Ore":{
+                "name":"Gold Ore"
+            },
+            "Platinum Ore":{
+                "name":"Platinum Ore"
+            },
+            "Mushroom":{
+                "name":"Mushroom"
+            },
+            "Glowing Mushroom":{
+                "name":"Glowing Mushroom"
+            },
+            "Cactus":{
+                "name":"Cactus"
+            },
+            "Worm Tooth":{
+                "name":"Worm Tooth"
+            },
+            "Stinger":{
+                "name":"Stinger"
+            },
+            "Bone":{
+                "name":"Bone"
+            },
+            "Cursed Flame":{
+                "name":"Cursed Flame"
+            },
+            "Ichor":{
+                "name":"Ichor"
+            },
+            "Hellstone":{
+                "name":"Hellstone"
+            },
+            "Gold Dust":{
+                "name":"Gold Dust"
+            },
+            "Nanites":{
+                "name":"Nanites"
+            },
+            "Confetti":{
+                "name":"Confetti"
+            },
+            "Vial of Venom":{
+                "name":"Vial of Venom"
+            },
+            "Armored Cavefish":{
+                "name":"Armored Cavefish"
+            },
+            "Atlantic Cod":{
+                "name":"Atlantic Cod"
+            },
+            "Bass":{
+                "name":"Bass"
+            },
+            "Chaos Fish":{
+                "name":"Chaos Fish"
+            },
+            "Crimson Tigerfish":{
+                "name":"Crimson Tigerfish"
+            },
+            "Damselfish":{
+                "name":"Damselfish"
+            },
+            "Double Cod":{
+                "name":"Double Cod"
+            },
+            "Ebonkoi":{
+                "name":"Ebonkoi"
+            },
+            "Flarefin Koi":{
+                "name":"Flarefin Koi"
+            },
+            "Flounder":{
+                "name":"Flounder"
+            },
+            "Frost Minnow":{
+                "name":"Frost Minnow"
+            },
+            "Hemopiranha":{
+                "name":"Hemopiranha"
+            },
+            "Honeyfish":{
+                "name":"Honeyfin"
+            },
+            "Neon Tetra":{
+                "name":"Neon Tetra"
+            },
+            "Obsidifish":{
+                "name":"Obsidifish"
+            },
+            "Princess Fish":{
+                "name":"Princess Fish"
+            },
+            "Prismite":{
+                "name":"Prismite"
+            },
+            "Red Snapper":{
+                "name":"Red Snapper"
+            },
+            "Rock Lobster":{
+                "name":"Rock Lobster"
+            },
+            "Salmon":{
+                "name":"Salmon"
+            },
+            "Shrimp":{
+                "name":"Shrimp"
+            },
+            "Specular Fish":{
+                "name":"Specular Fish"
+            },
+            "Stinkfish":{
+                "name":"Stinkfish"
+            },
+            "Trout":{
+                "name":"Trout"
+            },
+            "Tuna":{
+                "name":"Tuna"
+            },
+            "Varigated Lardfish":{
+                "name":"Varigated Lardfish"
+            }
         },
-        {
-            "name":"Daybloom",
-            "icon":"icons/ingredients/Daybloom.png",
-            "hardmode": false,
-            "wikilink": "https://terraria.fandom.com/wiki/Daybloom"
-        },
-        {
-            "name":"Blinkroot",
-            "icon":"icons/ingredients/Blinkroot.png"
-        },
-        {
-            "name":"Moonglow",
-            "icon":"icons/ingredients/Moonglow.png"
-        },
-        {
-            "name":"Waterleaf",
-            "icon":"icons/ingredients/Waterleaf.png"
-        },
-        {
-            "name":"Shiverthorn",
-            "icon":"icons/ingredients/Shiverthorn.png"
-        },
-        {
-            "name":"Deathweed",
-            "icon":"icons/ingredients/Deathweed.png"
-        },
-        {
-            "name":"Fireblossom",
-            "icon":"icons/ingredients/Fireblossom.png"
-        },
-        {
-            "name":"Lens"
-        },
-        {
-            "name":"Rotten Chunk"
-        },
-        {
-            "name":"Vertebra"
-        },
-        {
-            "name":"Amber"
-        },
-        {
-            "name":"Cobweb"
-        },
-        {
-            "name":"Feather"
-        },
-        {
-            "name":"Crispy Honey Block"
-        },
-        {
-            "name":"Coral"
-        },
-        {
-            "name":"Shark Fin"
-        },
-        {
-            "name":"Iron Ore"
-        },
-        {
-            "name":"Lead Ore"
-        },
-        {
-            "name":"Ladybug"
-        },
-        {
-            "name":"White Pearl"
-        },
-        {
-            "name":"Black Pearl"
-        },
-        {
-            "name":"Pink Pearl"
-        },
-        {
-            "name":"Fallen Star"
-        },
-        {
-            "name":"Antlion Mandible"
-        },
-        {
-            "name":"Obsidian"
-        },
-        {
-            "name":"Gold Ore"
-        },
-        {
-            "name":"Platinum Ore"
-        },
-        {
-            "name":"Mushroom"
-        },
-        {
-            "name":"Glowing Mushroom"
-        },
-        {
-            "name":"Cactus"
-        },
-        {
-            "name":"Worm Tooth"
-        },
-        {
-            "name":"Stinger"
-        },
-        {
-            "name":"Bone"
-        },
-        {
-            "name":"Cursed Flame"
-        },
-        {
-            "name":"Ichor"
-        },
-        {
-            "name":"Hellstone"
-        },
-        {
-            "name":"Gold Dust"
-        },
-        {
-            "name":"Nanites"
-        },
-        {
-            "name":"Confetti"
-        },
-        {
-            "name":"Vial of Venom"
-        },
-        {
-            "name":"Armored Cavefish"
-        },
-        {
-            "name":"Atlantic Cod"
-        },
-        {
-            "name":"Bass"
-        },
-        {
-            "name":"Chaos Fish"
-        },
-        {
-            "name":"Crimson Tigerfish"
-        },
-        {
-            "name":"Damselfish"
-        },
-        {
-            "name":"Double Cod"
-        },
-        {
-            "name":"Ebonkoi"
-        },
-        {
-            "name":"Flarefin Koi"
-        },
-        {
-            "name":"Flounder"
-        },
-        {
-            "name":"Frost Minnow"
-        },
-        {
-            "name":"Hemopiranha"
-        },
-        {
-            "name":"Honeyfin"
-        },
-        {
-            "name":"Neon Tetra"
-        },
-        {
-            "name":"Obsidifish"
-        },
-        {
-            "name":"Princess Fish"
-        },
-        {
-            "name":"Prismite"
-        },
-        {
-            "name":"Red Snapper"
-        },
-        {
-            "name":"Rock Lobster"
-        },
-        {
-            "name":"Salmon"
-        },
-        {
-            "name":"Shrimp"
-        },
-        {
-            "name":"Specular Fish"
-        },
-        {
-            "name":"Stinkfish"
-        },
-        {
-            "name":"Trout"
-        },
-        {
-            "name":"Tuna"
-        },
-        {
-            "name":"varigated Lardfish"
-        }
-    ],
     "Food":[
         {
             "name":"Ale",

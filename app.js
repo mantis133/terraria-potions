@@ -8,16 +8,16 @@ let selectedPotionsList = document.getElementById("list-of-selected-potions");
 let potionsImg = document.getElementById("potions-icon");
 let potionsDescription = document.getElementById("potions-information");
 // id selectors for the navigation
-let infoButton = document.getElementById("info-btn");
-let IngredientsButton = document.getElementById("ingredients-btn");
+
 
 $.getJSON( recipeJson, function( data ) {
     let potions = data.potions;
+    let materials = data.Ingredients
     for (let i = 0; i < potions.length; i++) {
         let potion = potions[i];
         // collect all the potion information from the json file
         let potionName = potion.name;
-        let potionIngredients = potion.ingredients;
+        let potionIngredients = potion.Ingredients;
         let potionDescription = potion.description;
         let potionDuration = potion.duration;
         let potionImg = potion.icon;
@@ -34,6 +34,7 @@ $.getJSON( recipeJson, function( data ) {
             document.getElementById("potion-name").removeChild(document.getElementById("potion-name").firstChild);
             document.getElementById("potion-duration").removeChild(document.getElementById("potion-duration").firstChild);
             document.getElementById("potion-description").removeChild(document.getElementById("potion-description").firstChild);
+            document.getElementById("potion-ingredients").removeChild(document.getElementById("potion-ingredients").firstChild)
             
             let hoveredPotionIcon = document.createElement("img");
             hoveredPotionIcon.setAttribute("src", potionImg);
@@ -53,6 +54,25 @@ $.getJSON( recipeJson, function( data ) {
             hoveredPotionDescription.innerHTML = potionDescription;
             hoveredPotionDescription.style.fontFamily = "andyBold";
             document.getElementById("potion-description").appendChild(hoveredPotionDescription);
+            // create a ul element to hold ingredients for hovered potion
+            let hoveredPotionIngredientsList = document.createElement("ul")
+            hoveredPotionIngredientsList.id = "list-of-ingredients"
+            document.getElementById("potion-ingredients").appendChild(hoveredPotionIngredientsList)
+            // format and place potion ingredients into the container
+            for (let ing=0; ing<potionIngredients.length; ing++){
+                let ingredient=potionIngredients[ing]
+                let ingredientcontainer = document.createElement("li")
+                //img element
+                let hoveredIngredientImage = document.createElement("img")
+                hoveredIngredientImage.setAttribute("src",materials[ingredient["Ingredient"]].icon)
+                ingredientcontainer.appendChild(hoveredIngredientImage)
+                //name and quantity element
+                let hoveredIngredientNameAndQuantity = document.createElement("p")
+                hoveredIngredientNameAndQuantity.innerHTML = ingredient["Ingredient"]+" Quantity: "+ingredient["Quantity"]
+                hoveredIngredientNameAndQuantity.style.fontFamily = "andyBold"
+                ingredientcontainer.appendChild(hoveredIngredientNameAndQuantity)
+                document.getElementById("list-of-ingredients").appendChild(ingredientcontainer)
+            }
         }
         potionContainer.style.width = "200px";
         potionContainer.style.height = "80px";
@@ -128,6 +148,7 @@ $.getJSON( recipeJson, function( data ) {
                 potionDescriptionElement.setAttribute("id", "potion-" + i + "-description-selected");
                 potionDescriptionElement.classList.add("potion-description-selected");
                 potionDescriptionElement.style.fontFamily = "andyBold"
+                
                 // place all the potion info into the container
                 selectedPotionContainer.appendChild(potionImgElement);
                 selectedPotionContainer.appendChild(potionNameElement);
@@ -140,3 +161,8 @@ $.getJSON( recipeJson, function( data ) {
         });
     } // end of for loop
 });
+
+
+//navigation
+let infoButton = document.getElementById("info-btn");
+let IngredientsButton = document.getElementById("ingredients-btn");
