@@ -814,7 +814,7 @@
             "Varigated Lardfish":{
                 "name":"Varigated Lardfish"
             }
-        },
+    },
     "Food":[
         {
             "name":"Ale",
@@ -835,11 +835,11 @@
     ],
     "Furnature":{
         "Activated":[
-            {"Name":"Ammo Box","Effect":"Ammo Box","Desc":"Grants a 20% chance not to consume ammo.","Duration":"10min"},
-            {"Name":"Bewitching Table","Effect":"Bewitched","Desc":"Increases number of maximum minions by +1.","Duration":"10min"},
-            {"Name":"Crystal Ball","Effect":"Clairvoyance","Desc":"Grants the following magic boosts: +20 maximum Mana, +5% Magic damage, +2% Magic critical strike chance, -2% Mana usage.","Duration":"10min"},
-            {"Name":"Sharpening Station","Effect":"Sharpened","Desc":"Increases melee weapons armor penetration by 12.","Duration":"10min"},
-            {"Name":"Slice of Cake","Effect":"Sugar Rush","Desc":"Increases the player's movement and mining speed by 20%.","Duration":"2min"}],
+            {"Name":"Ammo Box","Effect":"Ammo Box","Description":"Grants a 20% chance not to consume ammo."},
+            {"Name":"Bewitching Table","Effect":"Bewitched","Description":"Increases number of maximum minions by +1."},
+            {"Name":"Crystal Ball","Effect":"Clairvoyance","Description":"Grants the following magic boosts: +20 maximum Mana, +5% Magic damage, +2% Magic critical strike chance, -2% Mana usage."},
+            {"Name":"Sharpening Station","Effect":"Sharpened","Description":"Increases melee weapons armor penetration by 12."},
+            {"Name":"Slice of Cake","Effect":"Sugar Rush","Description":"Increases the player's movement and mining speed by 20%."}],
         
         "Passive":[
             {"Name":"Campfire","Effect":"Cozy Fire"},
