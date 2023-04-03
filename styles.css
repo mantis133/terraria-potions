@@ -5,6 +5,26 @@
 
 /*the size of potion icons is 20x30*/
 
+#header{
+    height: 10vh;
+    max-height: 100px;
+    min-height: 10px;
+    width: 100%;
+    position: absolute;
+    float:left;
+    border: 5px #c92121;
+    display: block;
+}
+
+#content{
+    position: relative;
+    float: left;
+    width: 100%;
+    display: block;
+    /* padding-top: 100px; */
+    top:10vh;
+}
+
 #all-potions-list{
     list-style-type: none;
     position: absolute;

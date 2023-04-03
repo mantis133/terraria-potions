@@ -603,39 +603,39 @@
     "Ingredients":{
             "Water":{
                 "name":"Water",
-                "icon":"icons/ingredients/Bottled_Water.png",
+                "icon":"icons/Materials/Plants/Bottled_Water.png",
                 "hardmode":false,
                 "wikilink":""
             },
             "Daybloom":{
                 "name":"Daybloom",
-                "icon":"icons/ingredients/Daybloom.png",
+                "icon":"icons/Materials/Plants/Daybloom.png",
                 "hardmode": false,
                 "wikilink": "https://terraria.fandom.com/wiki/Daybloom"
             },
             "Blinkroot":{
                 "name":"Blinkroot",
-                "icon":"icons/ingredients/Blinkroot.png"
+                "icon":"icons/Materials/Plants/Blinkroot.png"
             },
             "Moonglow":{
                 "name":"Moonglow",
-                "icon":"icons/ingredients/Moonglow.png"
+                "icon":"icons/Materials/Plants/Moonglow.png"
             },
             "Waterleaf":{
                 "name":"Waterleaf",
-                "icon":"icons/ingredients/Waterleaf.png"
+                "icon":"icons/Materials/Plants/Waterleaf.png"
             },
             "Shiverthorn":{
                 "name":"Shiverthorn",
-                "icon":"icons/ingredients/Shiverthorn.png"
+                "icon":"icons/Materials/Plants/Shiverthorn.png"
             },
             "Deathweed":{
                 "name":"Deathweed",
-                "icon":"icons/ingredients/Deathweed.png"
+                "icon":"icons/Materials/Plants/Deathweed.png"
             },
             "Fireblossom":{
                 "name":"Fireblossom",
-                "icon":"icons/ingredients/Fireblossom.png"
+                "icon":"icons/Materials/Plants/Fireblossom.png"
             },
             "Lens":{
                 "name":"Lens"
